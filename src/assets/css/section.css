@@ -1,0 +1,362 @@
+/* import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
+ */
+
+body{
+   background-color: #FBEEE6;
+}
+.bg-vm,.bg-whyus,.bg-customer{
+    background-color: #FFEACC;
+}
+.nav-p{
+    color: #fff;
+    font-weight: 600 !important;
+}
+.heroes{
+    background-color:  #FFEACC;
+}
+.heroes-img{
+    width: 700px;
+  ;
+}
+.heroes-title{
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.1;
+    font-size: 64px;
+    
+}
+.heroes-text{
+    font-weight: 600;
+    color: #fff;
+    line-height: 0.8;
+    font-size: 36px;
+}
+.heroes-text-p{
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.1;
+    font-size: 24px;
+}
+.aboutus{
+    font-weight: 400;
+    color: #8A5026;
+}
+.aboutus-p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+}
+.judul{
+    font-weight: 600;
+    color:#000 ;
+    text-align: center;
+}
+.card{
+    
+    background-color: #1f1f1f;
+}
+.card-customer{
+    background-color: #f5f5f5;
+    align-items: center;
+
+}
+
+.card-title-visi{
+    font-weight: 600;
+    color: #E48600;
+    padding-top: 1.8rem;
+    padding-left: 1.5rem;
+}
+.card-title-misi{
+    font-weight: 600;
+    color: #E48600;
+    padding-top: 1.8rem;
+    padding-right:1.5rem;
+    text-align: right;
+}
+
+.card-text{
+    font-size: 16px !important;
+    font-weight: 500;
+    color: #000 !important;
+    padding-left: 2rem;
+}
+/* }style={{fontWeight:'400',color:'black',marginLeft:'3rem',marginRight:'2rem'}} */
+.box{
+    padding-top: 5rem;
+    padding-bottom:2rem ;
+    
+}
+.box-customer{
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+.grid-row1{
+    
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+.grid-row2{
+    
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+.grid-row3{
+    
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+.grid-column{
+    width: 33.33%;
+    text-align: center;
+    align-self: center;
+   
+    flex-direction: row;
+}
+.service-text{
+    align-items: flex-start;
+    display: block;
+    color: BLACK;
+    font-weight: bold;
+    flex-direction: column;
+    font-size: 16px;
+}
+.judul-service{
+    font-weight: 600;
+    color:#8A5026 ;
+    text-align: center;
+}
+.whyus-title{
+    font-weight: 400;
+    color: white;
+}
+.whyus-p{
+    text-align: left;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.whyus{
+    padding-top: 3rem;
+    padding-bottom:5rem ;   
+  
+
+}
+.carousels{
+    padding-top: 4rem;
+    
+    padding-bottom: 4rem;
+}
+.image-carousel{
+    width: 1110px !important;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+}
+.footer-iota{
+    padding: 0 4rem 0 4rem !important;
+}
+img.service-logo{
+   max-width: 8rem; 
+ 
+}
+img.service-logo-more{
+    max-width: 8rem;
+    height: 8rem;  
+ }
+
+ .card-title-customer{
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    color: #E48600;
+    padding-bottom: 2rem;
+ }
+ .grid-row-custom1{ 
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.grid-column-custom{
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    
+}
+/* .contact-us{
+    background-color: #FFEACC !important;
+} */
+.custom-img{
+   
+   padding-left: 1rem;
+   padding-right: 1rem;
+    width: max-content ;
+}
+.footer-page{
+    background-color:#FFEACC;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-img{
+   color: #000;
+   text-align: center;
+   font-weight: 600;
+}
+.footer-row{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+   
+}
+.footer-col{
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.footer-title{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+ }.footer-icon{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+ }
+ .footer-text{
+    color: #000 !important;
+    font-weight: 500!important;
+    font-size: 15px !important;
+ }.icon{
+    align-self: center;
+    padding-right: 1rem;
+ }
+ .service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 0.5px solid #E48600;
+   
+ }
+ .vm-border{
+    outline: 2px solid #E48600;
+ }
+ .wu-border{
+    outline: 2px solid #E48600;
+ }
+ .judul-footer{
+    font-weight: 600;
+    color:#000 ;
+    text-align: center;
+}
+.card-service{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.job-title{
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.input-group{
+    position: relative;
+   
+    border-bottom: 2px solid #ccc;
+}
+.footer-credits{
+    color: #000;
+    font-weight: 400;
+}
+#carousel .carousel-item.boat {
+    background-image: url("https://picsum.photos/1200/600/?image=1083");
+  }
+  
+  #carousel .carousel-item.sea {
+    background-image: url("https://picsum.photos/1200/600/?image=1050");
+  }
+  
+  #carousel .carousel-item.river {
+    background-image: url("https://picsum.photos/1200/600/?image=1015");
+  }
+  
+  #carousel .carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+  
+  #carousel .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+  
+  #carousel .carousel-item .caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption h2 {
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption p {
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+  }
+  
+  #carousel .caption a {
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+  }
+  
+  /* Button */
+  .delicious-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+    border-left: 3px solid #1c8314;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 58px;
+    font-weight: 600;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-transform: capitalize;
+    background-color: #40ba37;
+  }
+  
+  .delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1c8314;
+    border-color: #40ba37;
+  }
+
+.vector {
+    position: absolute;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: 600px;
+}
+.vector-logo{
+    
+}
