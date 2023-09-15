@@ -18,91 +18,72 @@
 */
 /*eslint-disable*/
 import React from "react";
-import "../../assets/css/section.css"
-// reactstrap components
-import { Row, Container,NavLink } from "reactstrap";
+import "../../assets/css/section.css";
+import { Row, Container, NavLink } from "reactstrap";
 
 function DemoFooter() {
   return (
-     <div id="section-contact-us"className="contact-us mt-5 pt-2 text-center text-lg-startm bg-transparent footer footer-black footer-white">
-   
-  {/* Section: Social media */}
-  {/* Section: Links  */}
-  <section>
-    <div className="container text-center text-md-start mt-5">
-      {/* Grid row */}
-      <div className="row mt-3">
-        {/* Grid column */}
-        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 align-self-center">
-          {/* Content */}
-          <div className="footer-img">
-            <img alt="..." src={require("../../assets/img/iota-logo.png")} width="150" height="100" />
-            </div>
-            <div className="footer-title">
-            PT. IOTA CIPTA INDONESIA
-            </div> 
-        </div>
-        {/* Grid column */}
-        {/* Grid column */}
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
-          {/* Links */}
-          <h6 className="text-uppercase fw-bold mb-4 footer-title">
-            Office
-          </h6>
-          <div className="d-flex flex-wrap align-self-center justify-content-center">
-            <p className="footer-text">
-            EightyEight@Kasablanka Office Tower Lt.12 Unit A&H,
-            <hr></hr>
-            Jl.Casablanca Raya Kav.88 Menteng Dalam,
-            Tebet, Jakarta Selatan.
-            DKI Jakarta 12870
+    <footer className="bg-black text-light p-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <img
+              src={require("../../assets/img/logo-ppm.png")}
+              alt="Logo PPM"
+              style={{ width: "100px" }} // Mengatur ukuran logo
+            />
+          </div>
+          <div className="col-md-5">
+            <p className="text-light">
+              PT Palma Pertiwi Makmur adalah sebuah perusahaan yang bergerak di
+              bidang ketahanan pangan yang memiliki visi menjadi lumbung pangan
+              dunia. PT Palma Pertiwi Makmur memiliki divisi Pertanian,
+              Perkebunan, Industri, Perdagangan dan Energi.
             </p>
+            <div className="d-flex align-items-center">
+              <i className="fa fa-map-marker mr-2" aria-hidden="true"></i>
+              <p className="m-0 text-white">
+                Alamat: Jl. H. R. Rasuna Said Jalan Kavling VI No.9,
+                RT.9/RW.4, Kuningan Tim., Kecamatan Setiabudi, Kota Jakarta
+                Selatan, Daerah Khusus Ibukota Jakarta 12950.
+              </p>
             </div>
-        </div>
-        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 justify-content-left">
-          {/* Links */}
-          <h6 className="text-uppercase fw-bold mb-4 footer-title">
-            contact
-          </h6>
-          <p><i className="fa fa-paper-plane icon" /> halo-bisnis@iotanesia.com</p>
-          <p>
-            <i className="fa fa-phone icon" />
-            +62 812-7536-1122
-          </p>
-          <div className="footer-icon justify-content-center">
-            <NavLink 
-                data-placement="bottom"
-                href="https://www.linkedin.com/company/iota-cipta-indonesia-pt/mycompany/"
-                target="_blank"
-                title="Search on LinkedIn">
-                <i className="fa fa-linkedin" />
-                <p className="d-lg-none">LinkedIn</p>
-              </NavLink>
-              <NavLink 
-                data-placement="bottom"
-                href="https://github.com/iotanesia"
-                target="_blank"
-                title="Star on GitHub">
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
-              </NavLink>
-              {/* <NavLink 
-                data-placement="bottom"
-                href="#"
-                target="_blank"
-                title="Follow on Instagram">
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
-              </NavLink>     */}
+            <div className="d-flex align-items-center">
+              <i className="fa fa-globe mr-2" aria-hidden="true"></i>
+              <p className="m-0">
+                Website:{" "}
+                <a href="http://www.palmapertiwimakmur.id" className="text-light">
+                  www.palmapertiwimakmur.id
+                </a>
+              </p>
             </div>
+            <div className="d-flex align-items-center">
+              <i className="fa fa-envelope mr-2" aria-hidden="true"></i>
+              <p className="m-0">
+                Email:{" "}
+                <a href="mailto:info@palmapertiwimakmur.id" className="text-light">
+                  info@palmapertiwimakmur.id
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="col-md-2">
+            <h5>About Us</h5>
+            <ul>
+              <li>Home</li>
+              <li>Services</li>
+            </ul>
+          </div>
+          <div className="col-md-2">
+            <h5>Project</h5>
+            <ul>
+              <li>Riau</li>
+              <li>Lampung</li>
+            </ul>
+          </div>
         </div>
-      
-        {/* Grid column */}
       </div>
-      {/* Grid row */}
-    </div>
-  </section>
-      </div>
+    </footer>
   );
 }
 
