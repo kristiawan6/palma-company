@@ -1,89 +1,803 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../../assets/css/section.css";
-// img
-import b2b from "../../assets/img/service/b2b.svg";
-import ar from "../../assets/img/service/ar.svg";
-import chatbot from "../../assets/img/service/chatbot.svg";
-import expedition from "../../assets/img/service/expedition.svg";
-import human from "../../assets/img/service/human.svg";
-import machine from "../../assets/img/service/machine.svg";
-import management from "../../assets/img/service/management.svg";
-import monitoring from "../../assets/img/service/monitoring.svg";
-import voice from "../../assets/img/service/voice.svg";
+import Modal from "../../components/Modal"
 
 // reactstrap components
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Container } from "reactstrap";
 
 // core components
 
 function SectionNavigation() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  const [open, setOpen] = useState(false);
+
+  const handleModal = () => {
+    setOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpen(false);
+  };
   return (
     <>
       <div
         id="section-service"
-        className="container-xxl ">
+        style={{ backgroundColor: "#F0F3FF" }}
+        className=""
+      >
         <div className="container py-5">
-          <div className="text-center mx-auto">
-          <p className="h1 judul d-flex align-items-center justify-content-center mb-5 pt-5 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><img className="mr-3" src={require("../../assets/img/dot.png")}></img>Services</p>
+          <div className="ceo-title">
+            <h1>
+              SUMBER <span>DAYA MANUSIA</span>
+            </h1>
+            <h4>PT Palma Pertiwi Makmur</h4>
+            <img src={require("../../assets/img/ceo-div.png")}></img>
           </div>
-          <div className="row g-4 mt-5 justify-content-around align-items-center" >
-            <div className="card service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3 mr-3" src={b2b} alt />
-                <h5 className="mb-3 service-text">B2B and B2C Apps</h5>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/mardianto.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Mardianto</h1>
+                    <h1 className="card-jabatan">Presiden Direktur</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button
+                        type="button"
+                        className="btn card-button-detail"
+                        onClick={handleModal}
+                      
+                      >
+                        Detail
+                      </button>
+                    </div>
+                    <Modal open={open} onClose={handleCloseModal}/>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="card service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3" src={management} alt />
-                <h5 className="mb-3 service-text">Management</h5>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/bambang.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Drs. Bambang Yasin</h1>
+                    <h1 className="card-jabatan">Direktur Investasi</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="card service-item"   style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3" src={human} alt />
-                <h5 className="mb-3 service-text">Human Capital Management</h5>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/carman.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Charman Bhakti Suwandi</h1>
+                    <h1 className="card-jabatan">Direktur Perencanaan</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="card service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3" src={machine} alt />
-                <h5 className="mb-3 service-text">Machine Learning</h5>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/siti.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Siti Asnawanty, S.Kom,. MM.</h1>
+                    <h1 className="card-jabatan">Direktur SDM</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="card service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3 mr-3" src={monitoring} alt />
-                <h5 className="mb-3 service-text">Profile (SEO & CMS)</h5>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/tubagus.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Ir. Tugabus Bagas P.</h1>
+                    <h1 className="card-jabatan">
+                      Dir Hub Dalam Negeri & Internasional
+                    </h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="card service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-              <div className="card-body card-service ">
-              <img className="service-logo mb-3 mt-3" src={chatbot} alt />
-                <h5 className="mb-3 service-text">Chatbox Automate Respon</h5>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/nurseti.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Nurseto Adhiguno</h1>
+                    <h1 className="card-jabatan">VP Finance</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/menik.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Ir. Menik</h1>
+                    <h1 className="card-jabatan">Direktur Operasional</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/hamka.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">Hamka</h1>
+                    <h1 className="card-jabatan">Tenaga Ahli Agraria</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    style={{ width: 170, height: 170 }}
+                    src={require("../../assets/img/nunung.png")}
+                  />
+                  <div>
+                    <h1 className="card-text">
+                      Sri Nunung Munisarty S.H., M.H.
+                    </h1>
+                    <h1 className="card-jabatan">Legal</h1>
+                    <svg
+                      className="card-garis"
+                      width="300"
+                      height="6"
+                      viewBox="0 0 540 6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="6" fill="#E0E0E0" />
+                    </svg>
+                    <svg
+                      className="card-socmed1"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M35.82 16.08C35.24 16.24 34.78 16.22 34.78 16.22L34.8 16.11C35.34 15.68 36.71 14.35 36.89 13.72C36.97 13.45 36.88 13.36 36.88 13.35L35.14 14.09L33.68 14.75C32.67 13.68 31.15 13 29.44 13C26.41 13 23.95 15.15 23.95 17.8C23.95 18.28 24.02 19.17 24.17 19.61C24.17 19.75 24.18 19.47 24.17 19.61C22.22 19.56 19.71 18.76 17.48 17.63C13.08 15.4 12.81 13.86 12.81 13.86C12.12 14.59 11.76 17.02 12.46 18.93C12.91 20.15 14.45 21.24 14.45 21.24C14.45 21.24 13.76 21.25 13.04 21.01C12.32 20.77 12.05 20.52 12.05 20.52C11.62 21.57 12.48 23.44 13.97 24.78C14.84 25.56 16.42 26.05 16.42 26.05L13.94 26.12C13.8 28.53 18.99 29.96 18.99 29.96C17.47 31.13 15.71 31.84 13.82 31.84C12.84 31.84 11.89 31.69 11 31.43C13.5 33.49 16.71 34.91 20.2 34.72C29.46 34.23 34.68 26.28 34.93 18.46L34.94 18.48C34.94 18.48 35.37 18.26 36.3 17.34C37.23 16.41 37.8 15.33 37.8 15.33C37.8 15.33 36.4 15.92 35.82 16.08Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M36.8701 13.3501C36.8701 13.3601 36.8801 13.5001 36.8701 13.3501V13.3501Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M26.86 40.25V25.54H31.8L32.54 19.81H26.86V16.15C26.86 14.49 27.32 13.36 29.7 13.36H32.74V8.23001C32.21 8.16001 30.41 8 28.32 8C23.94 8 20.95 10.67 20.95 15.58V19.81H16V25.54H20.95V40.25H26.86Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+                    <svg
+                      className="card-socmed"
+                      width="35"
+                      height="35"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="24" cy="24" r="24" fill="#E0E0E0" />
+                      <path
+                        d="M30.02 39.39H17.82C12.4 39.39 8 34.98 8 29.57V18.82C8 13.4 12.41 9 17.82 9H30.02C35.43 9 39.84 13.41 39.84 18.82V29.57C39.84 34.98 35.43 39.39 30.02 39.39ZM17.81 11.17C13.6 11.17 10.17 14.6 10.17 18.81V29.56C10.17 33.77 13.6 37.2 17.81 37.2H30.01C34.22 37.2 37.65 33.77 37.65 29.56V18.81C37.65 14.6 34.22 11.17 30.01 11.17H17.81Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M23.9099 32.9302C19.0899 32.9302 15.1699 29.0102 15.1699 24.1902C15.1699 19.3702 19.0899 15.4502 23.9099 15.4502C28.7299 15.4502 32.6499 19.3702 32.6499 24.1902C32.6599 29.0102 28.7399 32.9302 23.9099 32.9302ZM23.9099 17.6302C20.2899 17.6302 17.3499 20.5702 17.3499 24.1902C17.3499 27.8102 20.2899 30.7502 23.9099 30.7502C27.5299 30.7502 30.4699 27.8102 30.4699 24.1902C30.4699 20.5702 27.5299 17.6302 23.9099 17.6302Z"
+                        fill="#3A2D80"
+                      />
+                      <path
+                        d="M34.34 15.7198C34.34 16.7198 33.53 17.5298 32.53 17.5298C31.53 17.5298 30.72 16.7198 30.72 15.7198C30.72 14.7198 31.53 13.9098 32.53 13.9098C33.53 13.8998 34.34 14.7098 34.34 15.7198Z"
+                        fill="#3A2D80"
+                      />
+                    </svg>
+
+                    <div>
+                      <button type="button" className="btn card-button-detail">
+                        Detail
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

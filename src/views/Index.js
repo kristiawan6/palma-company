@@ -54,10 +54,10 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <SectionAboutUs />
-      <SectionCarousel />
         {/* <SectionVisiMisi /> */}
-        <SectionWhyus />
+        {/* <SectionWhyus /> */}
         <SectionService />
+      <SectionCarousel />
         <SectionCustomer />
         {/* <SectionJobs /> */}
         <SectionContactUs />

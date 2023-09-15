@@ -1,19 +1,15 @@
-/* import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
- */
-
 body{
-   background-color: #FBEEE6;
+   background-color: #fff;
 }
 .bg-vm,.bg-whyus,.bg-customer{
-    background-color: #FFEACC;
+    background-color: #fff;
 }
 .nav-p{
     color: #fff;
     font-weight: 600 !important;
 }
 .heroes{
-    background-color:  #FFEACC;
+    background-color:  #fff;
 }
 .heroes-img{
     width: 700px;
@@ -36,7 +32,7 @@ body{
     font-weight: 500;
     color: #fff;
     line-height: 1.1;
-    font-size: 24px;
+    font-size: 18px;
 }
 .aboutus{
     font-weight: 400;
@@ -54,7 +50,7 @@ body{
     text-align: center;
 }
 .card{
-    
+    width: 100%;
     background-color: #1f1f1f;
 }
 .card-customer{
@@ -78,10 +74,44 @@ body{
 }
 
 .card-text{
-    font-size: 16px !important;
-    font-weight: 500;
-    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #3A2D80 !important;
     padding-left: 2rem;
+    line-height: 0.8;
+    /* margin-bottom: 20px; */
+}
+
+.card-jabatan{
+    font-size: 18px !important;
+    font-weight: bold !important;
+    padding-left: 2rem;
+    margin:0;
+
+}
+
+.card-garis{
+    margin-top: 10px;
+    margin-left: 34px !important;
+    margin-right: 0 !important;
+}
+.card-socmed1{
+    margin-top: 10px;
+    margin-left: 30px !important;
+}
+.card-socmed{
+    margin-top: 10px;
+    margin-left: 10px !important;
+}
+
+.card-button-detail{
+    margin-top: 0px;
+    margin-left: 230px !important;
+    border-radius: 40px;
+    font-size: 14px;
+    background-color: #3A2D80 !important;
+    border-color: #3A2D80 !important;
+
 }
 /* }style={{fontWeight:'400',color:'black',marginLeft:'3rem',marginRight:'2rem'}} */
 .box{
@@ -106,13 +136,12 @@ body{
     padding-top: 4rem;
 }
 .grid-row3{
-    
     display:flex;
     flex-wrap: wrap;
     padding-top: 4rem;
 }
 .grid-column{
-    width: 33.33%;
+    width: 50%;
     text-align: center;
     align-self: center;
    
@@ -240,9 +269,9 @@ img.service-logo-more{
  }
  .service-item{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    outline: 0.5px solid #E48600;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 30px;
    
  }
  .vm-border{
@@ -259,8 +288,6 @@ img.service-logo-more{
 .card-service{
     display: flex;
     flex-direction: row;
-    justify-content: center !important;
-    align-items: center !important;
 }
 .job-title{
     color: #1f1f1f;
@@ -351,12 +378,110 @@ img.service-logo-more{
     border-color: #40ba37;
   }
 
-.vector {
+  .vector {
     position: absolute;
-    align-items: flex-end;
+    margin-top: 600px;
+  }
+  
+  .flex-container {
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center its children horizontally */
+    align-items: center; /* Center its children vertically (optional) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 125px 0px 0px 420px;
+  }
+  
+  /* Additional styles for .flex-container if needed */
+  .flex-container img {
+    margin-right: 150px;
+
+  }
+  .ceo-image img{
+    width: 1684px !important;
+  }
+  .container-ceo{
+    line-height: 0.8;
+  }
+  .ceo-title h1{
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.8;
+    color: #000;
+  }
+  .ceo-title span{
+    color: #3A2D80;
+  }
+  .ceo-title h4 {
+    font-weight: 600;
+    text-align: center;
+    color: #757575 !important;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .ceo-title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+ #section-service {
+    width: 100%;
+ }
+
+ /* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background-color: white;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title {
+    font-size: 1.25rem;
+  }
+  
+  .close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+  }
+  
+  .modal-footer {
+    display: flex;
     justify-content: flex-end;
-    top: 600px;
-}
-.vector-logo{
-    
-}
+  }
+  
+  /* Add any additional styles you need for your modal */
+  

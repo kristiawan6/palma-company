@@ -28,7 +28,7 @@ function IndexHeader() {
   return (
     <>
       <Jumbotron
-        fluid
+        
         style={{
           backgroundImage: "url(" + require("assets/img/hero.jpg") + ")",
           backgroundSize: "cover",
@@ -48,15 +48,22 @@ function IndexHeader() {
                 Untuk Menuju Lambung Pangan Dunia
               </h3>
               <h3 className="heroes-text-p display-3">
-              PT PALMA PERTIWI MAKMUR adalah sebuah perusahaan yang bergerak di bidang ketahanan pangan yang memiliki visi mejadi lumbung pangan dunia. PT Palma Pertiwi Mandiri memiliki divisi Pertanian, Perkebunan, Industri, Perdagangan dan Energi,
+                PT PALMA PERTIWI MAKMUR adalah sebuah perusahaan yang bergerak
+                di bidang ketahanan pangan yang memiliki visi mejadi lumbung
+                pangan dunia. PT Palma Pertiwi Mandiri memiliki divisi
+                Pertanian, Perkebunan, Industri, Perdagangan dan Energi,
               </h3>
             </div>
           </div>
         </Container>
         <div className="vector">
           <img src={require("../../assets/img/Vector.png")}></img>
-          <div className="vector-logo d-flex justify-content-center">
-          <img src={require("../../assets/img/perkebunan.png")}></img>
+          <div className="flex-container d-flex justify-content-center">
+            <img style={{ width:87 }} src={require("../../assets/img/pertanian.png")}></img>
+            <img src={require("../../assets/img/perkebunan.png")}></img>
+            <img src={require("../../assets/img/industri.png")}></img>
+            <img src={require("../../assets/img/perdagangan.png")}></img>
+            <img src={require("../../assets/img/energi.png")}></img>
           </div>
         </div>
       </Jumbotron>
