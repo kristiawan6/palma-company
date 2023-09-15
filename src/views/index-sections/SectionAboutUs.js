@@ -13,7 +13,7 @@ function SectionCeo() {
         <h4>PT Palma Pertiwi Makmur</h4>
         <img src={require('../../assets/img/ceo-div.png')}></img>
     </div>
-  <div className="ceo-image" >
+  <div className="ceo-image">
     <img src={require('../../assets/img/ceo.png')}></img>
   </div>
   </div>

@@ -34,23 +34,23 @@ import {
 const items = [
   {
     src: require("assets/img/padi.jpg"),
-    altText: "Founders",
-    caption: "Founders",
+    altText: "Padi",
+    caption: "Padi",
   },
   {
     src: require("assets/img/corn.jpg"),
-    altText: "Founders",
-    caption: "Founders",
+    altText: "Jagung",
+    caption: "Jagung",
   },
   {
     src: require("assets/img/singkong.jpg"),
-    altText: "Founders",
-    caption: "Founders",
+    altText: "Singkong",
+    caption: "Singkong",
   },
   {
     src: require("assets/img/caliandraa.jpg"),
-    altText: "Founders",
-    caption: "Founders",
+    altText: "Calliandra Powder Flower",
+    caption: "Calliandra Powder Flower",
   },
 ];
 
