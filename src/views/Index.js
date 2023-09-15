@@ -28,6 +28,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 // index sections
 import SectionAboutUs from "views/index-sections/SectionAboutUs";
 import SectionVisiMisi from "views/index-sections/SectionVisiMisi";
+import SectionNotification from "views/index-sections/SectionNotifications";
 import SectionService from "views/index-sections/SectionService.js";
 import SectionWhyus from "views/index-sections/SectionWhyus.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
@@ -54,11 +55,13 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <SectionAboutUs />
+        <SectionService />
+        <SectionCarousel />
+        <SectionNotification />
+        <SectionTypography />
+        <SectionExamples />
         {/* <SectionVisiMisi /> */}
         {/* <SectionWhyus /> */}
-        <SectionService />
-      <SectionCarousel />
-        <SectionCustomer />
         {/* <SectionJobs /> */}
         <SectionContactUs />
         <DemoFooter />

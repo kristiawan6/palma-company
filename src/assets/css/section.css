@@ -302,54 +302,6 @@ img.service-logo-more{
     color: #000;
     font-weight: 400;
 }
-#carousel .carousel-item.boat {
-    background-image: url("https://picsum.photos/1200/600/?image=1083");
-  }
-  
-  #carousel .carousel-item.sea {
-    background-image: url("https://picsum.photos/1200/600/?image=1050");
-  }
-  
-  #carousel .carousel-item.river {
-    background-image: url("https://picsum.photos/1200/600/?image=1015");
-  }
-  
-  #carousel .carousel-item {
-    height: 100vh;
-    width: 100%;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    background-size: cover;
-  }
-  
-  #carousel .carousel-inner .carousel-item {
-    transition: -webkit-transform 2s ease;
-    transition: transform 2s ease;
-    transition: transform 2s ease, -webkit-transform 2s ease;
-  }
-  
-  #carousel .carousel-item .caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    color: white;
-    animation-duration: 1s;
-    animation-delay: 2s;
-  }
-  
-  #carousel .caption h2 {
-    animation-duration: 1s;
-    animation-delay: 2s;
-  }
-  
-  #carousel .caption p {
-    animation-duration: 1s;
-    animation-delay: 2.2s;
-  }
-  
-  #carousel .caption a {
-    animation-duration: 1s;
-    animation-delay: 2.4s;
-  }
   
   /* Button */
   .delicious-btn {
@@ -380,7 +332,7 @@ img.service-logo-more{
 
   .vector {
     position: absolute;
-    margin-top: 600px;
+    margin-top: 500px;
   }
   
   .flex-container {
@@ -400,7 +352,7 @@ img.service-logo-more{
 
   }
   .ceo-image img{
-    width: 1684px !important;
+    width: 1519px !important;
   }
   .container-ceo{
     line-height: 0.8;
@@ -482,6 +434,15 @@ img.service-logo-more{
     display: flex;
     justify-content: flex-end;
   }
-  
-  /* Add any additional styles you need for your modal */
-  
+
+  .judul-survey img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+/*   
+ .youtube iframe {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+ } */

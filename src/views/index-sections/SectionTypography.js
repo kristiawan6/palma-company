@@ -1,188 +1,128 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
+import "../../assets/css/section.css";
+import Modal from "../../components/Modal";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // core components
 
-function SectionTypography() {
+function SectionProject() {
   return (
     <>
-      <Container className="tim-container">
-        <div className="title">
-          <h3>Typography</h3>
-        </div>
-        <div id="typography">
-          <Row>
-            <div className="typography-line">
-              <h1>
-                <span className="note">Header 1</span>
-                Thinking in textures
-              </h1>
-            </div>
-            <div className="typography-line">
-              <h2>
-                <span className="note">Header 2</span>
-                Thinking in textures
-              </h2>
-            </div>
-            <div className="typography-line">
-              <h3>
-                <span className="note">Header 3</span>
-                Thinking in textures
-              </h3>
-            </div>
-            <div className="typography-line">
-              <h4>
-                <span className="note">Header 4</span>
-                Thinking in textures
-              </h4>
-            </div>
-            <div className="typography-line">
-              <h5>
-                <span className="note">Header 5</span>
-                Thinking in textures
-              </h5>
-            </div>
-            <div className="typography-line">
-              <h6>
-                <span className="note">Header 6</span>
-                Thinking in textures
-              </h6>
-            </div>
-            <div className="typography-line">
-              <p>
-                <span className="note">Paragraph</span>
-                Thinking in textures
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Quote</span>
-              <blockquote className="blockquote">
-                <p className="mb-0">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                </p>
-                <br />
-                <footer className="blockquote-footer">
-                  Someone famous in{" "}
-                  <cite title="source Title">Source Title</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div className="typography-line">
-              <span className="note">Muted text</span>
-              <p className="text-muted">
-                Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Primary text</span>
-              <p className="text-primary">
-                Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Success text</span>
-              <p className="text-success">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Info text</span>
-              <p className="text-info">
-                Maecenas sed diam eget risus varius blandit sit amet non magna.
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Warning text</span>
-              <p className="text-warning">
-                Etiam porta sem malesuada magna mollis euismod.
-              </p>
-            </div>
-            <div className="typography-line">
-              <span className="note">Danger text</span>
-              <p className="text-danger">
-                Donec ullamcorper nulla non metus auctor fringilla.
-              </p>
-            </div>
-            <div className="typography-line">
-              <h2>
-                <span className="note">Small tag</span>
-                Header with small subtitle <br />
-                <small>".small" is a tag for the headers</small>
-              </h2>
-            </div>
-          </Row>
-        </div>
-        <br />
-        <div id="images">
-          <Container>
-            <div className="title">
-              <h3>Images</h3>
-            </div>
-            <Row>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Rounded Image</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg")}
-                />
-                <div className="img-details">
-                  <div className="author">
-                    <img
-                      alt="..."
-                      className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/faces/joe-gardner-2.jpg")}
-                    />
-                  </div>
-                  <p>Sonia Green</p>
+      <div
+        id="section-service"
+        style={{ backgroundColor: "#fff" }}
+        className=""
+      >
+        <div className="container py-5">
+          <div className="ceo-title">
+            <h1>
+              OUR <span>PROJECTS</span>
+            </h1>
+            <h4>PT Palma Pertiwi Makmur</h4>
+            <img src={require("../../assets/img/ceo-div.png")} alt="CEO" />
+          </div>
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    src={require("../../assets/img/project1.png")}
+                    alt="Project 1"
+                  />
                 </div>
-              </Col>
-              <Col className="mr-auto ml-auto" md="2" sm="3">
-                <h4 className="images-title">Circle Image</h4>
-                <img
-                  alt="..."
-                  className="img-circle img-no-padding img-responsive"
-                  src={require("assets/img/faces/kaci-baum-2.jpg")}
-                />
-                <p className="text-center">Brigitte Bardot</p>
-              </Col>
-              <Col className="mr-auto" md="2" sm="3">
-                <h4 className="images-title">Thumbnail</h4>
-                <img
-                  alt="..."
-                  className="img-thumbnail img-responsive"
-                  src={require("assets/img/faces/erik-lucatero-2.jpg")}
-                />
-                <p className="text-center">John Keynes</p>
-              </Col>
-            </Row>
-          </Container>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    src={require("../../assets/img/project2.png")}
+                    alt="Project 2"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    src={require("../../assets/img/project3.png")}
+                    alt="Project 3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="card service-item">
+                <div className="card-body card-service">
+                  <img
+                    src={require("../../assets/img/project4.png")}
+                    alt="Project 4"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="judul-survey">
+              <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
+              <h2 style={{ fontWeight: "bold", color: "black" }}>
+                FOTO SURVEY LOKASI
+              </h2>
+            </div>
+            <div className="riau">
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Riau"
+                style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }}
+                src={require("../../assets/img/dot.png")}
+                alt="Riau Dot"
+              />
+            </div>
+            <div className="lampung">
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Lampung"
+                style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }}
+                src={require("../../assets/img/dot.png")}
+                alt="Lampung Dot"
+              />
+            </div>
+             <div className="jawa-barat">
+              <img data-toggle="tooltip" data-placement="top" title="Jawa Barat"  style={{ width:18,position:"absolute", marginTop:408, marginLeft:292 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <div className="jawa-tengah">
+              <img data-toggle="tooltip" data-placement="top" title="Jawa Tengah"  style={{ width:18,position:"absolute", marginTop:416, marginLeft:360 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <div className="jawa-timur">
+              <img data-toggle="tooltip" data-placement="top" title="Jawa Timur"  style={{ width:18,position:"absolute", marginTop:425, marginLeft:404 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <div className="kalimantan-tengah">
+              <img data-toggle="tooltip" data-placement="top" title="Kalimantan Tengah"  style={{ width:18,position:"absolute", marginTop:300, marginLeft:430 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <div className="sulawesi-tengah">
+              <img data-toggle="tooltip" data-placement="top" title="Sulawesi Tengah"  style={{ width:18,position:"absolute", marginTop:275, marginLeft:635 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <div className="papua-barat">
+              <img data-toggle="tooltip" data-placement="top" title="Papua Barat"  style={{ width:18,position:"absolute", marginTop:275, marginLeft:910 }} src={require("../../assets/img/dot.png")}/>
+            </div>
+            <img
+              style={{ marginTop: 80 }}
+              src={require("../../assets/img/peta2.png")}
+              alt="Map"
+            />
+            <img style={{ marginTop:20 }} src={require("../../assets/img/flexphoto.png")}/>
+            <div className="judul-survey">
+              <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
+            </div>
+          </div>
         </div>
-      </Container>
+      </div>
     </>
   );
 }
 
-export default SectionTypography;
+export default SectionProject;
