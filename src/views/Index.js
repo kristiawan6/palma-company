@@ -37,6 +37,7 @@ import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
 import SectionJobs from "views/index-sections/SectionJobs";
 import SectionCustomer from "views/index-sections/SectionCustomer.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
+import SectionNews from "views/index-sections/SectionNews"
 import SectionContactUs from "views/index-sections/SectionContactUs";
 // import SectionCarousel from "./index-sections/SectionCarousel";
 
@@ -60,6 +61,7 @@ function Index() {
       <SectionCarousel />
         <SectionCustomer />
         {/* <SectionJobs /> */}
+        <SectionNews/>
         <SectionContactUs />
         <DemoFooter />
       </div>

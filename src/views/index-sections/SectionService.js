@@ -9,16 +9,7 @@ import "aos/dist/aos.css";
 // core components
 
 function SectionNavigation() {
-  const [open, setOpen] = useState(false);
-  const [close, setClose] = useState(true);
-
-  const handleModal = () => {
-    setOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setClose(false);
-  };
+ 
   return (
     <>
       <div

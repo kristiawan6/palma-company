@@ -452,3 +452,17 @@ img.service-logo-more{
   margin-top: 10px;
   margin-left: 20px;
  }
+
+ .news{
+  margin-top: auto;
+ }
+
+ .poster-news{
+  margin-left: 295px;
+ }
+
+ .section-contact-us{
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+ }
