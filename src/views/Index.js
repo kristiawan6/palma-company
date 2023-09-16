@@ -40,6 +40,7 @@ import SectionCustomer from "views/index-sections/SectionCustomer.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionNews from "views/index-sections/SectionNews"
 import SectionContactUs from "views/index-sections/SectionContactUs";
+import SectionContactOurTeam from "views/index-sections/SectionContactOurTeam";
 // import SectionCarousel from "./index-sections/SectionCarousel";
 
 function Index() {
@@ -65,8 +66,9 @@ function Index() {
         {/* <SectionWhyus /> */}
         {/* <SectionJobs /> */}
         <SectionNews/>
+        <SectionContactOurTeam/>
         <SectionContactUs />
-        <DemoFooter />
+        {/* <DemoFooter /> */}
       </div>
     </>
   );
