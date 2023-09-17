@@ -5,10 +5,10 @@
 * Paper Kit React - v1.3.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Product Page: https://www.creative-tim.com/product
 
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/blob/main/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -51,7 +51,7 @@ function IndexHeader() {
                 PT PALMA PERTIWI MAKMUR adalah sebuah perusahaan yang bergerak
                 di bidang ketahanan pangan yang memiliki visi mejadi lumbung
                 pangan dunia. PT Palma Pertiwi Mandiri memiliki divisi
-                Pertanian, Perkebunan, Industri, Perdagangan dan Energi,
+                Pertanian, Kehutanan (Perhutanan Sosial) dan Jasa Lingkungan.
               </h3>
             </div>
           </div>
