@@ -35,7 +35,7 @@ function SectionNavigation() {
                                 <div className="card-our m-0">
                                     <h3 className="h-cont-us m-0 mb-4">Contact Us</h3>
                                     <div className="input-group">
-                                        <input type="text" placeholder="Your Name" />
+                                        <input type="text" placeholder="Your Name"/>
                                     </div>
                                     <div className="input-group">
                                         <input type="email" placeholder="Your Email" />
