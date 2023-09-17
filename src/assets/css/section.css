@@ -472,6 +472,104 @@ img.service-logo-more {
 }
 
 @media (min-width: 769px) {
+    #section-pulau {
+        width: 100%;
+        
+    }
+
+    .service-item-pulau {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        border-radius: 30px;
+        margin-bottom: 35px;
+        margin-right: 70px;
+        
+    
+    }
+
+    .service-item-pulau .card-body {
+        margin-top: 10px;
+        padding: 0 10px; 
+    }
+
+    .riaumr{
+        margin-right: 50;
+    }
+
+    .lampungml{
+        margin-left: 80;
+    }
+
+    .jabarml{
+        margin-left: 160;
+    }
+
+    .jatimml{
+        margin-left: 80;
+    }
+    .kaltengml{
+        margin-left: 160;
+    }
+
+
+}
+
+
+@media (min-width: 450px) and (max-width:768px) {
+
+    #section-pulau {
+        width: 100%;
+    }
+
+    .judul-survey{
+        margin-left: 40px;
+    }
+
+    .service-item-pulau {
+        /* width: 50%; */
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: left;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 95px;
+        /* margin-right: 50px; */
+        
+    
+    }
+
+    .service-item-pulau .card-body {
+        padding: 0; 
+    }
+
+    .riaumr{
+        margin-right: 25;
+    }
+
+    .lampungml{
+        margin-left: 40;
+    }
+
+    .jabarml{
+        margin-left: 80;
+    }
+
+    .jatimml{
+        margin-left: 40;
+    }
+    
+    .kaltengml{
+        margin-left: 80;
+    }
+
+  
+}
+
+
+@media (min-width: 769px) {
     .news {
         margin-top: auto;
     }
