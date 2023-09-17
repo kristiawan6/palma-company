@@ -43,7 +43,7 @@ function SectionNewProject() {
   return (
     <>
       <div
-        id="section-service"
+        id="section-pulau"
         className="container-xxl ">
         <div className="container">
         <div className="judul-survey"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
@@ -52,34 +52,34 @@ function SectionNewProject() {
               </h2>
             </div>
           <div className="row mt-2 justify-content-left align-items-center" >
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div style={{ marginRight:50 }} className="card-body">
-                  <img style={{ width:320 }} src={require("../../assets/img/riau.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+                <div className="card-body riaumr">
+                  <img style={{ width:320 }} src={require("../../assets/img/riau.png")} />
                 </div>
               </div>
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <img style={{ width:320,marginLeft:80 }} src={require("../../assets/img/lampung.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+                <div className="card-body lampungml">
+                  <img style={{ width:320 }} src={require("../../assets/img/lampung.png") } />
                 </div>
               </div>
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <img style={{ width:320,marginLeft:160 }} src={require("../../assets/img/jawa-barat.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+                <div className="card-body jabarml">
+                  <img style={{ width:320}} src={require("../../assets/img/jawa-barat.png") } />
                 </div>
               </div>
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
                 <div className="card-body">
                   <img style={{ width:320 }} src={require("../../assets/img/jawa-tengah.png") } />
                 </div>
               </div>
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <img style={{ width:320,marginLeft:80 }} src={require("../../assets/img/jawa-timur.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+                <div className="card-body jatimml">
+                  <img style={{ width:320}} src={require("../../assets/img/jawa-timur.png") } />
                 </div>
               </div>
-              <div className="service-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <img style={{width:320,marginLeft:160 }} src={require("../../assets/img/kalimantan-tengah.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+                <div className="card-body kaltengml">
+                  <img style={{width:320 }} src={require("../../assets/img/kalimantan-tengah.png") } />
                 </div>
               </div>
               <div className="judul-survey">
