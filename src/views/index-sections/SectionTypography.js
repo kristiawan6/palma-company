@@ -19,7 +19,7 @@ function SectionProject() {
         <div className="container py-5">
           <div className="ceo-title">
             <h1>
-              OUR <span>PROJECTS</span>
+              OUR <span>PROGRAM SYSTEM</span>
             </h1>
             <h4>PT Palma Pertiwi Makmur</h4>
             <img src={require("../../assets/img/ceo-div.png")} alt="CEO" />
