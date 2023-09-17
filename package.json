@@ -1,6 +1,7 @@
 {
-  "name": "iotanesia",
+  "name": "palmapertiwimakmur",
   "version": "1.3.0",
+  "homepage": "https://palmapertiwimakmur.id",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -61,7 +62,7 @@
   "main": "src/assets/scss/paper-kit.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/paper-kit-react.git"
+    "url": "git+https://github.com/creativetimofficial.git"
   },
   "keywords": [
     "react",
@@ -84,7 +85,7 @@
   "author": "AFU",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/paper-kit-react/issues"
+    "url": "https://github.com/creativetimofficial/issues"
   },
-  "homepage": "https://demos.creative-tim.com/paper-kit-react/#/index"
+  "homepage": "https://demos.creative-tim.com/#/index"
 }
