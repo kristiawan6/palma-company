@@ -26,7 +26,7 @@ function DemoFooter() {
     <footer className="bg-black text-white">
       <div className="container-about">
         <div className="row">
-          <div className="col-md-8 justify mt-4">
+          <div className="col-sm-4 col-md-8 justify mt-4">
             <img
               src={require("../../assets/img/logo-ppm.png")}
               alt="Logo PPM"

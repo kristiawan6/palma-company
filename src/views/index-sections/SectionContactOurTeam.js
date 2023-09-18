@@ -78,8 +78,8 @@ function SectionNavigation() {
                             </div>
                             <img
                                 src={require("../../assets/img/maps.png")}
-                                alt="Logo PPM"
-                                style={{ width: "430px" }}
+                                alt="Maps"
+                               className="contact-maps"
                             />
                         </div>
                     </div>

@@ -57,13 +57,13 @@ function IndexHeader() {
           </div>
         </Container>
         <div className="vector">
-          <img src={require("../../assets/img/Vector.png")}></img>
-          <div className="flex-container d-flex justify-content-center">
-            <img style={{ width:87 }} src={require("../../assets/img/pertanian.png")}></img>
-            <img src={require("../../assets/img/perkebunan.png")}></img>
-            <img src={require("../../assets/img/industri.png")}></img>
-            <img src={require("../../assets/img/perdagangan.png")}></img>
-            <img src={require("../../assets/img/energi.png")}></img>
+          <img className="vector-icon" src={require("../../assets/img/Vector.png")}></img>
+          <div className="container-vector-icon">
+            <img className="vector-icon-pertanian" src={require("../../assets/img/pertanian.png")}></img>
+            <img className="vector-icon-perkebunan" src={require("../../assets/img/perkebunan.png")}></img>
+            <img className="vector-icon-industri" src={require("../../assets/img/industri.png")}></img>
+            <img className="vector-icon-perdagangan" src={require("../../assets/img/perdagangan.png")}></img>
+            <img className="vector-icon-energi" src={require("../../assets/img/energi.png")}></img>
           </div>
         </div>
       </Jumbotron>

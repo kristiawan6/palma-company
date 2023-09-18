@@ -13,36 +13,179 @@ body {
     font-weight: 600 !important;
 }
 
-.heroes {
-    background-color: #fff;
+@media (min-width:769px) {
+    .heroes {
+        background-color: #fff;
+    }
+
+    .container-vector-icon {
+        justify-content: center;
+        display: flex;
+        /* Make it a flex container */
+        justify-content: center;
+        /* Center its children horizontally */
+        align-items: center;
+        /* Center its children vertically (optional) */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin: 125px 0px 0px 420px;
+    }
+
+    .heroes-img {
+        width: 700px;
+    }
+
+    .heroes-title {
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 64px;
+
+    }
+
+    .heroes-text {
+        font-weight: 600;
+        color: #fff;
+        line-height: 0.8;
+        font-size: 36px;
+    }
+
+    .heroes-text-p {
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 18px;
+    }
+
+    .vector-icon-pertanian {
+
+        width: 60px;
+        margin-left: 100px;
+    }
+
+    .vector-icon-perkebunan {
+        margin-top: 15px;
+        width: 70px;
+        margin-left: 150px;
+    }
+
+    .vector-icon-industri {
+
+        width: 60px;
+        margin-left: 150px;
+    }
+
+    .vector-icon-perdagangan {
+        /* margin-top: 300px !important; */
+        width: 70px;
+        margin-left: 150px;
+    }
+
+
+    .vector-icon-energi {
+        /* margin-top: 300px !important; */
+        width: 60px;
+        margin-left: 150px;
+    }
+
 }
 
-.heroes-img {
-    width: 700px;
-    ;
+@media (min-width:360px) and (max-width:769px) {
+    /* .heroes {
+        background-color: #fff;
+    } */
+
+    .container-vector-icon {
+        display: flex;
+        justify-content: center;
+
+        /* Center its children horizontally */
+        align-items: center;
+        /* Center its children vertically (optional) */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        /* margin-top: 50px; */
+
+        margin: 220px 0px 0px 50px;
+    }
+
+    .heroes-img {
+        width: 300px !important;
+
+    }
+
+    .heroes-title {
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 35px;
+
+    }
+
+    .heroes-text {
+        font-weight: 600;
+        color: #fff;
+        line-height: 0.8;
+        font-size: 20px;
+
+        align-items: justify !important;
+        justify-content: center !important;
+    }
+
+    .heroes-text-p {
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 15px;
+        align-items: justify !important;
+        justify-content: center !important;
+
+    }
+
+
+    .vector-icon {
+        margin-top: 190px;
+        width: 480px;
+
+    }
+
+    .vector-icon-pertanian {
+
+        width: 23px;
+        margin-left: 70px;
+    }
+
+    .vector-icon-perkebunan {
+
+        width: 27px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-industri {
+
+        width: 23px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-perdagangan {
+        /* margin-top: 300px !important; */
+        width: 30px;
+        margin-left: 30px;
+    }
+
+
+    .vector-icon-energi {
+        /* margin-top: 300px !important; */
+        width: 23px;
+        margin-left: 30px;
+    }
+
 }
 
-.heroes-title {
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.1;
-    font-size: 64px;
-
-}
-
-.heroes-text {
-    font-weight: 600;
-    color: #fff;
-    line-height: 0.8;
-    font-size: 36px;
-}
-
-.heroes-text-p {
-    font-weight: 500;
-    color: #fff;
-    line-height: 1.1;
-    font-size: 18px;
-}
 
 .aboutus {
     font-weight: 400;
@@ -273,22 +416,26 @@ img.service-logo-more {
     align-self: center;
     padding-right: 1rem;
 }
-@media (min-width:769px) { 
+
+@media (min-width:769px) {
     .service-item {
         display: flex;
         flex-direction: row;
         align-items: left;
         border-radius: 30px;
-    
+
     }
+
     .card-service {
         display: flex;
         flex-direction: row;
     }
+
     .card-service img {
         width: 170px;
         height: 170px;
     }
+
     .card-text {
         font-size: 20px !important;
         font-weight: bold;
@@ -297,31 +444,31 @@ img.service-logo-more {
         line-height: 0.8;
         /* margin-bottom: 20px; */
     }
-    
+
     .card-jabatan {
         font-size: 18px !important;
         font-weight: bold !important;
         padding-left: 2rem;
         margin: 0;
-    
+
     }
-    
+
     .card-garis {
         margin-top: 10px;
         margin-left: 34px !important;
         margin-right: 0 !important;
     }
-    
+
     .card-socmed1 {
         margin-top: 10px;
         margin-left: 30px !important;
     }
-    
+
     .card-socmed {
         margin-top: 10px;
         margin-left: 10px !important;
     }
-    
+
     .card-button-detail {
         margin-top: 0px;
         margin-left: 230px !important;
@@ -329,69 +476,77 @@ img.service-logo-more {
         font-size: 14px;
         background-color: #3A2D80 !important;
         border-color: #3A2D80 !important;
-    
+
     }
 }
-@media (min-width:450px) and (max-width:768px) { 
+
+@media (min-width:360px) and (max-width:768px) {
     .service-item {
         display: flex;
         flex-direction: row;
         align-items: left;
         border-radius: 30px;
-    
+
     }
+
     .card-service {
         display: flex;
         flex-direction: row;
     }
+
     .card-service img {
-    width: 100px;
-    height: 100px ;
-    margin-top: 28px;
+        width: 100px;
+        height: 100px;
+        margin-top: 28px;
     }
+
     .card-text {
-        font-size: 20px !important;
+        font-size: 15px !important;
         font-weight: bold;
         color: #3A2D80 !important;
         padding-left: 2rem;
         line-height: 0.8;
         /* margin-bottom: 20px; */
     }
-    
+
     .card-jabatan {
-        font-size: 18px !important;
+        font-size: 13px !important;
         font-weight: bold !important;
+        align-items: justify;
         padding-left: 2rem;
         margin: 0;
-    
+
     }
-    
+
     .card-garis {
         margin-top: 10px;
-        padding: 0 10px;
-        margin-left: 24px !important;
+        padding: 0 17px;
+        margin-left: 16px !important;
         margin-right: 0 !important;
+        width: 190px;
     }
-    
+
     .card-socmed1 {
         margin-top: 10px;
-        margin-left: 30px !important;
+        margin-left: 35px !important;
     }
-    
+
     .card-socmed {
         margin-top: 10px;
+        /* padding: 0 10px; */
         margin-left: 10px !important;
     }
-    
+
     .card-button-detail {
-        margin-top: 0px;
-        margin-left: 200px !important;
+        margin-top: 20px;
+        margin-left: 110px !important;
         border-radius: 40px;
         font-size: 14px;
         background-color: #3A2D80 !important;
         border-color: #3A2D80 !important;
-    }    
+    }
 }
+
 @media (min-width:769px) {
     .card-system img {
         width: 600px;
@@ -399,14 +554,15 @@ img.service-logo-more {
     }
 }
 
-@media (min-width:450px) and (max-width:769px) {
+@media (min-width:360px) and (max-width:769px) {
     .card-service img {
         width: 100px;
-        height: 100px ;
+        height: 100px;
         margin-top: 28px;
-        }
+    }
 }
-@media (min-width:769px){
+
+@media (min-width:769px) {
     .riau img {
         /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
         width: 18px;
@@ -414,6 +570,7 @@ img.service-logo-more {
         margin-top: 278px;
         margin-left: 180px;
     }
+
     .lampung img {
         /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
         width: 18px;
@@ -421,97 +578,111 @@ img.service-logo-more {
         margin-top: 358px;
         margin-left: 232px;
     }
+
     .jawa-barat img {
         width: 18px;
         position: absolute;
         margin-top: 408px;
         margin-left: 292px;
     }
+
     .jawa-tengah img {
-        width :18px;
+        width: 18px;
         position: absolute;
-        margin-top:416px;
+        margin-top: 416px;
         margin-left: 360px;
     }
-    .jawa-timur img{
+
+    .jawa-timur img {
         width: 18px;
         position: absolute;
         margin-top: 425px;
         margin-left: 404px;
     }
-    .kalimantan-tengah img{
+
+    .kalimantan-tengah img {
         width: 18px;
         position: absolute;
         margin-top: 300px;
         margin-left: 430px;
     }
-    .sulawesi-tengah img{
+
+    .sulawesi-tengah img {
         width: 18px;
         position: absolute;
         margin-top: 275px;
         margin-left: 635px;
     }
-    .papua-barat img{
-        width:18px;
+
+    .papua-barat img {
+        width: 18px;
         position: absolute;
         margin-top: 275px;
         margin-left: 910px;
     }
 }
 
-@media (min-width: 450px) and (max-width:769px) {
+@media (min-width: 360px) and (max-width:769px) {
     .riau img {
         /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
         width: 8px;
         position: absolute;
-        margin-top: 153px;
-        margin-left: 70px;
+        margin-top: 140px;
+        margin-left: 50px;
     }
+
     .lampung img {
         /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
         width: 8px;
         position: absolute;
-        margin-top: 185px;
-        margin-left: 88px;
+        margin-top: 162px;
+        margin-left: 68px;
     }
+
     .jawa-barat img {
         width: 8px;
         position: absolute;
-        margin-top: 204px;
-        margin-left: 112px;
+        margin-top: 178px;
+        margin-left: 86px;
     }
+
     .jawa-tengah img {
-        width :8px;
-        position: absolute;
-        margin-top:207px;
-        margin-left: 135px;
-    }
-    .jawa-timur img{
         width: 8px;
         position: absolute;
-        margin-top: 210px;
-        margin-left: 154px;
+        margin-top: 180px;
+        margin-left: 105px;
     }
-    .kalimantan-tengah img{
-        width:8px;
-        position: absolute;
-        margin-top: 160px;
-        margin-left: 164px;
-    }
-    .sulawesi-tengah img{
+
+    .jawa-timur img {
         width: 8px;
         position: absolute;
-        margin-top: 155px;
-        margin-left: 240px;
+        margin-top: 183px;
+        margin-left: 120px;
     }
-    .papua-barat img{
+
+    .kalimantan-tengah img {
         width: 8px;
         position: absolute;
-        margin-top: 152px;
-        margin-left: 345px;
+        margin-top: 140px;
+        margin-left: 128px;
     }
-    
+
+    .sulawesi-tengah img {
+        width: 8px;
+        position: absolute;
+        margin-top: 135px;
+        margin-left: 190px;
+    }
+
+    .papua-barat img {
+        width: 8px;
+        position: absolute;
+        margin-top: 148px;
+        margin-left: 275px;
+    }
+
 }
+
 .vm-border {
     outline: 2px solid #E48600;
 }
@@ -597,11 +768,84 @@ img.service-logo-more {
 
 }
 
-@media (min-width: 769px) { 
+.ceo-image img {
+    width: 1513px !important;
+}
+
+/* komoditi */
+@media (min-width: 769px) {
+    .komoditi-title h2 {
+        margin-top: 100px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+
+    }
+
+    .komoditi-title span {
+        color: #3A2D80;
+        align-items: justify;
+        /* font-size: 30px !important; */
+    }
+
+    .komoditi-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .komoditi-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width:768px) {
+
+
+    .komoditi-title h2 {
+        margin-top: 100px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .komoditi-title span {
+        color: #3A2D80;
+    }
+
+    .komoditi-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .komoditi-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 769px) {
     .container-ceo {
         line-height: 0.8;
     }
-    
+
     .ceo-title h1 {
         margin-top: 100px;
         font-weight: bold;
@@ -609,11 +853,11 @@ img.service-logo-more {
         line-height: 0.8;
         color: #000;
     }
-    
+
     .ceo-title span {
         color: #3A2D80;
     }
-    
+
     .ceo-title h4 {
         font-weight: 600;
         text-align: center;
@@ -621,23 +865,25 @@ img.service-logo-more {
         font-size: 25px;
         margin-top: 15px;
     }
-    
+
     .ceo-title img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
         margin-bottom: 30px;
-    } 
-    .ceo-image img {
+    }
+
+    .ceo-sambutan img {
         width: 1513px !important;
     }
 }
-@media (min-width: 450px) and (max-width:768px){
+
+@media (min-width: 360px) and (max-width:768px) {
     .container-ceo {
         line-height: 0.8;
     }
-    
+
     .ceo-title h1 {
         margin-top: 100px;
         font-weight: bold;
@@ -645,11 +891,11 @@ img.service-logo-more {
         line-height: 0.8;
         color: #000;
     }
-    
+
     .ceo-title span {
         color: #3A2D80;
     }
-    
+
     .ceo-title h4 {
         font-weight: 600;
         text-align: center;
@@ -657,19 +903,22 @@ img.service-logo-more {
         font-size: 25px;
         margin-top: 15px;
     }
-    
+
     .ceo-title img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
         margin-bottom: 30px;
-    } 
-    .ceo-image img  {
-        width: 450px !important;
+        width: 250px;
     }
-    
+
+    .ceo-sambutan img {
+        width: 360px !important;
+    }
+
 }
+
 .container-ceo {
     line-height: 0.8;
 }
@@ -700,7 +949,7 @@ img.service-logo-more {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-} 
+}
 
 
 #section-service {
@@ -728,58 +977,133 @@ img.service-logo-more {
 }
 
 @media (min-width: 769px) {
+    .garis-our-program img {
+        margin-left: 40px;
+    }
+
+}
+
+
+@media (min-width: 360px) and (max-width:768px) {
+
+    .garis-our-program img {
+        margin-left: 40px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 769px) {
+    .garis-proyek img {
+        margin-top: 10px;
+        margin-left: 280px !important;
+        width: 550px;
+    }
+
+}
+
+
+@media (min-width: 360px) and (max-width:768px) {
+
+    .garis-proyek img {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 250px;
+    }
+}
+
+/* garis-pulau */
+
+@media (min-width: 769px) {
+    .garis-pulau img {
+        margin-top: 10px;
+        margin-left: 280px !important;
+        width: 550px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 360px) and (max-width:768px) {
+
+    .garis-pulau img {
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+        margin-left: 40px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 769px) {
     #section-pulau {
         width: 100%;
-        
+
     }
 
     .service-item-pulau {
         display: flex;
         flex-direction: row;
-        align-items: left;
+        align-items: center;
         border-radius: 30px;
-        margin-bottom: 35px;
-        margin-right: 70px;
-        
-    
+        /* margin-bottom: 35px; */
+        margin-left: 75px;
+        /* margin-right: 70px; */
+        width: 18rem;
+
+    }
+
+
+    .judul-pulau {
+        margin-left: 40px;
     }
 
     .service-item-pulau .card-body {
-        margin-top: 10px;
-        padding: 0 10px; 
+        /* margin-top: 10px; */
+        /* padding: 0 10px; */
+        width: 18rem;
     }
 
-    .riaumr{
-        margin-right: 50;
+    .riaumr {
+        /* margin-right: 50; */
+        /* width: 500px; */
+        
+        width: 150px;
     }
 
-    .lampungml{
-        margin-left: 80;
+    .lampungml {
+        /* margin-left: 80; */
+        width: 320px;
     }
 
-    .jabarml{
-        margin-left: 160;
+    .jabarml {
+        /* margin-left: 160; */
+        width: 320px;
     }
 
-    .jatimml{
-        margin-left: 80;
+    .jatimml {
+        /* margin-left: 80; */
+        width: 320px;
     }
-    .kaltengml{
-        margin-left: 160;
+
+    .kaltengml {
+        /* margin-left: 160; */
+        width: 320px;
     }
 
 
 }
 
 
-@media (min-width: 450px) and (max-width:768px) {
+
+@media (min-width: 360px) and (max-width:768px) {
 
     #section-pulau {
         width: 100%;
     }
 
-    .judul-survey{
-        margin-left: 40px;
+    .judul-pulau {
+        /* margin-left: 40px; */
+        align-items: justify;
     }
 
     .service-item-pulau {
@@ -789,39 +1113,44 @@ img.service-logo-more {
         flex-direction: row;
         /* justify-content: center; */
         align-items: left;
-        border-radius: 30px;
+        border-radius: 10px;
         margin-bottom: 20px;
-        margin-left: 95px;
-        /* margin-right: 50px; */
-        
-    
+
     }
 
     .service-item-pulau .card-body {
-        padding: 0; 
+        padding: 0;
+        /* width: 18rem; */
     }
 
-    .riaumr{
-        margin-right: 25;
+    .riaumr {
+        align-items: flex-end;
+        /* margin-left: 20px; */
+        width: 100%;
     }
 
-    .lampungml{
-        margin-left: 40;
+    .lampungml {
+        /* margin-left: 40px; */
+        align-items: flex-end;
+        width: 100%;
     }
 
-    .jabarml{
-        margin-left: 80;
+    .jabarml {
+        /* margin-left: 10px; */
+        width: 100%;
     }
 
-    .jatimml{
-        margin-left: 40;
-    }
-    
-    .kaltengml{
-        margin-left: 80;
+    .jatimml {
+        /* margin-left: 40; */
+        width: 100%;
     }
 
-  
+    .kaltengml {
+        /* margin-left: 80; */
+        width: 100%;
+    }
+
+
 }
 
 
@@ -838,16 +1167,37 @@ img.service-logo-more {
 }
 
 
-@media (min-width: 450px) and (max-width:768px) {
+@media (min-width: 360px) and (max-width:768px) {
     .news {
         margin-top: auto;
     }
 
-    .poster-news {
+    .poster-news img {
+        margin-left: 38px;
         justify-content: center;
+
+        width: 250px;
+        /* margin: 0; */
     }
 }
 
+
+@media (min-width: 769px) {
+    .contact-maps {
+        width: 430px;
+    }
+
+
+}
+
+
+@media (min-width: 360px) and (max-width:768px) {
+
+    .contact-maps {
+        width: 330px;
+    }
+
+}
 
 .section-contact-us {
     background-color: #000;
@@ -855,12 +1205,28 @@ img.service-logo-more {
     flex-direction: column;
 }
 
-.container-about {
-    /* display: flex; */
-    justify-content: justify;
-    margin-left: 30px;
-    /* margin-top: 10px; */
 
+
+@media (min-width: 760px) {
+    .container-about {
+        /* display: flex; */
+        justify-content: justify;
+        margin-left: 30px;
+        /* margin-top: 10px; */
+
+    }
+}
+
+
+@media (min-width: 360px) and (max-width:750px) {
+    .container-about {
+        /* display: flex; */
+        justify-content: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+        /* margin-top: 10px; */
+
+    }
 }
 
 .project-foot {
@@ -911,7 +1277,7 @@ img.service-logo-more {
 }
 
 
-@media (min-width: 510px) and (max-width:750px) {
+@media (min-width: 360px) and (max-width:750px) {
     .container-form {
         flex-direction: row;
         align-items: flex-start;
@@ -935,7 +1301,7 @@ img.service-logo-more {
 }
 
 
-@media (min-width: 510px) and (max-width:750px) {
+@media (min-width: 360px) and (max-width:750px) {
     .container-card-our {
         margin-top: 20px;
         display: flex;
@@ -948,22 +1314,26 @@ img.service-logo-more {
 
 @media (min-width:769px) {
 
-    .youtube-video iframe{
+    .youtube-video iframe {
         width: 1120px !important;
         height: 750px !important;
         border-radius: 20px;
     }
 
 }
-@media (min-width:450px) and (max-width:769px) {
 
-    .youtube-video iframe{
-        width: 420px !important;
+@media (min-width:360px) and (max-width:769px) {
+
+    .youtube-video iframe {
+        /* margin-left: 10px; */
+        justify-content: center;
+        width: 330px !important;
         height: 260px !important;
         border-radius: 20px;
     }
 
 }
+
 .h-cont-us {
     margin-bottom: 20px;
     color: #E48600;

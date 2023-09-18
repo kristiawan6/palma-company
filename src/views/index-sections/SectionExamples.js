@@ -46,43 +46,43 @@ function SectionNewProject() {
         id="section-pulau"
         className="container-xxl ">
         <div className="container">
-        <div className="judul-survey"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-              <h2 style={{ fontWeight: "bold", color: "black" }}>
+        <div className="judul-pulau"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <h2 style={{ fontWeight: "bold", color: "black"}}>
                 PROYEK TERBARU KAMI
               </h2>
             </div>
           <div className="row mt-2 justify-content-left align-items-center" >
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <div className="card-body riaumr">
-                  <img style={{ width:320 }} src={require("../../assets/img/riau.png")} />
+                  <img className="img-fluid" src={require("../../assets/img/riau.png") } />
                 </div>
               </div>
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <div className="card-body lampungml">
-                  <img style={{ width:320 }} src={require("../../assets/img/lampung.png") } />
+                  <img className="img-fluid" src={require("../../assets/img/lampung.png") } />
                 </div>
               </div>
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <div className="card-body jabarml">
-                  <img style={{ width:320}} src={require("../../assets/img/jawa-barat.png") } />
+                  <img className="img-fluid" src={require("../../assets/img/jawa-barat.png") } />
                 </div>
               </div>
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <img style={{ width:320 }} src={require("../../assets/img/jawa-tengah.png") } />
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <div className="card-body jateng">
+                  <img className="img-fluid" src={require("../../assets/img/jawa-tengah.png") } />
                 </div>
               </div>
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <div className="card-body jatimml">
-                  <img style={{ width:320}} src={require("../../assets/img/jawa-timur.png") } />
+                  <img className="img-fluid" src={require("../../assets/img/jawa-timur.png") } />
                 </div>
               </div>
-              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" style={{ width: "18rem" }}>
+              <div className="service-item-pulau" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <div className="card-body kaltengml">
-                  <img style={{width:320 }} src={require("../../assets/img/kalimantan-tengah.png") } />
+                  <img className="img-fluid"src={require("../../assets/img/kalimantan-tengah.png") } />
                 </div>
               </div>
-              <div className="judul-survey">
+              <div className="garis-pulau">
               <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
 
             </div>

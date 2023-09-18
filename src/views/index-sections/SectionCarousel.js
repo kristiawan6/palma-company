@@ -81,10 +81,10 @@ function SectionCarousel() {
     <>
       <div className="carousels" id="carousel">
         <Container>
-          <div className="ceo-title">
-            <h1>
+          <div className="komoditi-title">
+            <h2>
               KOMODITI <span>YANG DIBUDIDAYAKAN</span>
-            </h1>
+            </h2>
             <h4>PT Palma Pertiwi Makmur</h4>
             <img src={require("../../assets/img/ceo-div.png")}></img>
           </div>

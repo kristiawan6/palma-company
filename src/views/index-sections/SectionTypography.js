@@ -65,7 +65,7 @@ function SectionProject() {
                 </div>
               </div>
             </div>
-            <div className="judul-survey">
+            <div className="garis-our-program">
               <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
               <h2 style={{ fontWeight: "bold", color: "black" }}>
                 FOTO SURVEY LOKASI
@@ -150,7 +150,7 @@ function SectionProject() {
               style={{ marginTop: 15 }}
               src={require("../../assets/img/aren.png")}
             />
-            <div className="judul-survey">
+            <div className="garis-proyek">
               <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
             </div>
           </div>
