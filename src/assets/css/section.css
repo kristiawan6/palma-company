@@ -978,7 +978,9 @@ img.service-logo-more {
 
 @media (min-width: 769px) {
     .garis-our-program img {
-        margin-left: 40px;
+        margin-top: 10px;
+        margin-left: 320px;
+        margin-bottom: 20px;
     }
 
 }
@@ -1124,6 +1126,7 @@ img.service-logo-more {
     }
 
     .riaumr {
+
         align-items: flex-end;
         /* margin-left: 20px; */
         width: 100%;
