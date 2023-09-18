@@ -88,48 +88,8 @@ body {
     text-align: right;
 }
 
-.card-text {
-    font-size: 20px !important;
-    font-weight: bold;
-    color: #3A2D80 !important;
-    padding-left: 2rem;
-    line-height: 0.8;
-    /* margin-bottom: 20px; */
-}
 
-.card-jabatan {
-    font-size: 18px !important;
-    font-weight: bold !important;
-    padding-left: 2rem;
-    margin: 0;
 
-}
-
-.card-garis {
-    margin-top: 10px;
-    margin-left: 34px !important;
-    margin-right: 0 !important;
-}
-
-.card-socmed1 {
-    margin-top: 10px;
-    margin-left: 30px !important;
-}
-
-.card-socmed {
-    margin-top: 10px;
-    margin-left: 10px !important;
-}
-
-.card-button-detail {
-    margin-top: 0px;
-    margin-left: 230px !important;
-    border-radius: 40px;
-    font-size: 14px;
-    background-color: #3A2D80 !important;
-    border-color: #3A2D80 !important;
-
-}
 
 /* }style={{fontWeight:'400',color:'black',marginLeft:'3rem',marginRight:'2rem'}} */
 .box {
@@ -313,15 +273,245 @@ img.service-logo-more {
     align-self: center;
     padding-right: 1rem;
 }
-
-.service-item {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    border-radius: 30px;
-
+@media (min-width:769px) { 
+    .service-item {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        border-radius: 30px;
+    
+    }
+    .card-service {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-service img {
+        width: 170px;
+        height: 170px;
+    }
+    .card-text {
+        font-size: 20px !important;
+        font-weight: bold;
+        color: #3A2D80 !important;
+        padding-left: 2rem;
+        line-height: 0.8;
+        /* margin-bottom: 20px; */
+    }
+    
+    .card-jabatan {
+        font-size: 18px !important;
+        font-weight: bold !important;
+        padding-left: 2rem;
+        margin: 0;
+    
+    }
+    
+    .card-garis {
+        margin-top: 10px;
+        margin-left: 34px !important;
+        margin-right: 0 !important;
+    }
+    
+    .card-socmed1 {
+        margin-top: 10px;
+        margin-left: 30px !important;
+    }
+    
+    .card-socmed {
+        margin-top: 10px;
+        margin-left: 10px !important;
+    }
+    
+    .card-button-detail {
+        margin-top: 0px;
+        margin-left: 230px !important;
+        border-radius: 40px;
+        font-size: 14px;
+        background-color: #3A2D80 !important;
+        border-color: #3A2D80 !important;
+    
+    }
+}
+@media (min-width:450px) and (max-width:768px) { 
+    .service-item {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        border-radius: 30px;
+    
+    }
+    .card-service {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-service img {
+    width: 100px;
+    height: 100px ;
+    margin-top: 28px;
+    }
+    .card-text {
+        font-size: 20px !important;
+        font-weight: bold;
+        color: #3A2D80 !important;
+        padding-left: 2rem;
+        line-height: 0.8;
+        /* margin-bottom: 20px; */
+    }
+    
+    .card-jabatan {
+        font-size: 18px !important;
+        font-weight: bold !important;
+        padding-left: 2rem;
+        margin: 0;
+    
+    }
+    
+    .card-garis {
+        margin-top: 10px;
+        padding: 0 10px;
+        margin-left: 24px !important;
+        margin-right: 0 !important;
+    }
+    
+    .card-socmed1 {
+        margin-top: 10px;
+        margin-left: 30px !important;
+    }
+    
+    .card-socmed {
+        margin-top: 10px;
+        margin-left: 10px !important;
+    }
+    
+    .card-button-detail {
+        margin-top: 0px;
+        margin-left: 200px !important;
+        border-radius: 40px;
+        font-size: 14px;
+        background-color: #3A2D80 !important;
+        border-color: #3A2D80 !important;
+    }    
+}
+@media (min-width:769px) {
+    .card-system img {
+        width: 600px;
+        border-radius: 10px;
+    }
 }
 
+@media (min-width:450px) and (max-width:769px) {
+    .card-service img {
+        width: 100px;
+        height: 100px ;
+        margin-top: 28px;
+        }
+}
+@media (min-width:769px){
+    .riau img {
+        /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
+        width: 18px;
+        position: absolute;
+        margin-top: 278px;
+        margin-left: 180px;
+    }
+    .lampung img {
+        /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
+        width: 18px;
+        position: absolute;
+        margin-top: 358px;
+        margin-left: 232px;
+    }
+    .jawa-barat img {
+        width: 18px;
+        position: absolute;
+        margin-top: 408px;
+        margin-left: 292px;
+    }
+    .jawa-tengah img {
+        width :18px;
+        position: absolute;
+        margin-top:416px;
+        margin-left: 360px;
+    }
+    .jawa-timur img{
+        width: 18px;
+        position: absolute;
+        margin-top: 425px;
+        margin-left: 404px;
+    }
+    .kalimantan-tengah img{
+        width: 18px;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 430px;
+    }
+    .sulawesi-tengah img{
+        width: 18px;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 635px;
+    }
+    .papua-barat img{
+        width:18px;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 910px;
+    }
+}
+
+@media (min-width: 450px) and (max-width:769px) {
+    .riau img {
+        /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
+        width: 8px;
+        position: absolute;
+        margin-top: 153px;
+        margin-left: 70px;
+    }
+    .lampung img {
+        /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
+        width: 8px;
+        position: absolute;
+        margin-top: 185px;
+        margin-left: 88px;
+    }
+    .jawa-barat img {
+        width: 8px;
+        position: absolute;
+        margin-top: 204px;
+        margin-left: 112px;
+    }
+    .jawa-tengah img {
+        width :8px;
+        position: absolute;
+        margin-top:207px;
+        margin-left: 135px;
+    }
+    .jawa-timur img{
+        width: 8px;
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 154px;
+    }
+    .kalimantan-tengah img{
+        width:8px;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 164px;
+    }
+    .sulawesi-tengah img{
+        width: 8px;
+        position: absolute;
+        margin-top: 155px;
+        margin-left: 240px;
+    }
+    .papua-barat img{
+        width: 8px;
+        position: absolute;
+        margin-top: 152px;
+        margin-left: 345px;
+    }
+    
+}
 .vm-border {
     outline: 2px solid #E48600;
 }
@@ -336,10 +526,6 @@ img.service-logo-more {
     text-align: center;
 }
 
-.card-service {
-    display: flex;
-    flex-direction: row;
-}
 
 .job-title {
     color: #1f1f1f;
@@ -411,10 +597,79 @@ img.service-logo-more {
 
 }
 
-.ceo-image img {
-    width: 1519px !important;
+@media (min-width: 769px) { 
+    .container-ceo {
+        line-height: 0.8;
+    }
+    
+    .ceo-title h1 {
+        margin-top: 100px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+    
+    .ceo-title span {
+        color: #3A2D80;
+    }
+    
+    .ceo-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+    .ceo-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+    .ceo-image img {
+        width: 1513px !important;
+    }
 }
-
+@media (min-width: 450px) and (max-width:768px){
+    .container-ceo {
+        line-height: 0.8;
+    }
+    
+    .ceo-title h1 {
+        margin-top: 100px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+    
+    .ceo-title span {
+        color: #3A2D80;
+    }
+    
+    .ceo-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+    .ceo-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+    .ceo-image img  {
+        width: 450px !important;
+    }
+    
+}
 .container-ceo {
     line-height: 0.8;
 }
@@ -445,7 +700,8 @@ img.service-logo-more {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+} 
+
 
 #section-service {
     width: 100%;
@@ -690,7 +946,24 @@ img.service-logo-more {
     }
 }
 
+@media (min-width:769px) {
 
+    .youtube-video iframe{
+        width: 1120px !important;
+        height: 750px !important;
+        border-radius: 20px;
+    }
+
+}
+@media (min-width:450px) and (max-width:769px) {
+
+    .youtube-video iframe{
+        width: 420px !important;
+        height: 260px !important;
+        border-radius: 20px;
+    }
+
+}
 .h-cont-us {
     margin-bottom: 20px;
     color: #E48600;

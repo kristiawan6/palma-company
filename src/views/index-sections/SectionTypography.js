@@ -26,8 +26,8 @@ function SectionProject() {
           </div>
           <div className="row">
             <div className="col-xl-6">
-              <div className="card service-item">
-                <div className="card-body card-service">
+              <div className="card system-item">
+                <div className="card-body card-system">
                   <img
                     src={require("../../assets/img/project1.png")}
                     alt="Project 1"
@@ -36,8 +36,8 @@ function SectionProject() {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="card service-item">
-                <div className="card-body card-service">
+              <div className="card system-item">
+                <div className="card-body card-system">
                   <img
                     src={require("../../assets/img/project2.png")}
                     alt="Project 2"
@@ -46,8 +46,8 @@ function SectionProject() {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="card service-item">
-                <div className="card-body card-service">
+              <div className="card system-item">
+                <div className="card-body card-system">
                   <img
                     src={require("../../assets/img/project3.png")}
                     alt="Project 3"
@@ -56,8 +56,8 @@ function SectionProject() {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="card service-item">
-                <div className="card-body card-service">
+              <div className="card system-item">
+                <div className="card-body card-system">
                   <img
                     src={require("../../assets/img/project4.png")}
                     alt="Project 4"
@@ -76,7 +76,6 @@ function SectionProject() {
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Riau"
-                style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }}
                 src={require("../../assets/img/dot.png")}
                 alt="Riau Dot"
               />
@@ -86,35 +85,71 @@ function SectionProject() {
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Lampung"
-                style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }}
                 src={require("../../assets/img/dot.png")}
                 alt="Lampung Dot"
               />
             </div>
-             <div className="jawa-barat">
-              <img data-toggle="tooltip" data-placement="top" title="Jawa Barat"  style={{ width:18,position:"absolute", marginTop:408, marginLeft:292 }} src={require("../../assets/img/dot.png")}/>
+            <div className="jawa-barat">
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Jawa Barat"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <div className="jawa-tengah">
-              <img data-toggle="tooltip" data-placement="top" title="Jawa Tengah"  style={{ width:18,position:"absolute", marginTop:416, marginLeft:360 }} src={require("../../assets/img/dot.png")}/>
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Jawa Tengah"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <div className="jawa-timur">
-              <img data-toggle="tooltip" data-placement="top" title="Jawa Timur"  style={{ width:18,position:"absolute", marginTop:425, marginLeft:404 }} src={require("../../assets/img/dot.png")}/>
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Jawa Timur"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <div className="kalimantan-tengah">
-              <img data-toggle="tooltip" data-placement="top" title="Kalimantan Tengah"  style={{ width:18,position:"absolute", marginTop:300, marginLeft:430 }} src={require("../../assets/img/dot.png")}/>
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Kalimantan Tengah"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <div className="sulawesi-tengah">
-              <img data-toggle="tooltip" data-placement="top" title="Sulawesi Tengah"  style={{ width:18,position:"absolute", marginTop:275, marginLeft:635 }} src={require("../../assets/img/dot.png")}/>
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Sulawesi Tengah"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <div className="papua-barat">
-              <img data-toggle="tooltip" data-placement="top" title="Papua Barat"  style={{ width:18,position:"absolute", marginTop:275, marginLeft:910 }} src={require("../../assets/img/dot.png")}/>
+              <img
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Papua Barat"
+                src={require("../../assets/img/dot.png")}
+              />
             </div>
             <img
               style={{ marginTop: 80 }}
               src={require("../../assets/img/peta2.png")}
               alt="Map"
             />
-            <img style={{ marginTop:20 }} src={require("../../assets/img/flexphoto.png")}/>
+            <img
+              style={{ marginTop: 20 }}
+              src={require("../../assets/img/flexphoto.png")}
+            />
+            <img
+              style={{ marginTop: 15 }}
+              src={require("../../assets/img/aren.png")}
+            />
             <div className="judul-survey">
               <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
             </div>

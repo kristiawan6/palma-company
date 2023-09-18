@@ -462,7 +462,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/mardianto.png")}
                   />
                   <div>
@@ -470,8 +470,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Presiden Direktur</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -550,7 +548,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/bambang.png")}
                   />
                   <div>
@@ -558,8 +556,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Direktur Investasi</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -637,7 +633,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/carman.png")}
                   />
                   <div>
@@ -645,8 +641,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Direktur Perencanaan</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -725,7 +719,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/siti.png")}
                   />
                   <div>
@@ -733,8 +727,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Direktur SDM</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -813,7 +805,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/tubagus.png")}
                   />
                   <div>
@@ -823,8 +815,6 @@ function SectionNavigation() {
                     </h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -903,7 +893,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/nurseti.png")}
                   />
                   <div>
@@ -911,8 +901,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">VP Finance</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -992,7 +980,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/menik.png")}
                   />
                   <div>
@@ -1000,8 +988,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Direktur Operasional</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1080,7 +1066,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/hamka.png")}
                   />
                   <div>
@@ -1088,8 +1074,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Tenaga Ahli Agraria</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -1169,7 +1153,7 @@ function SectionNavigation() {
               <div className="card service-item">
                 <div className="card-body card-service">
                   <img
-                    style={{ width: 170, height: 170 }}
+                    
                     src={require("../../assets/img/nunung.png")}
                   />
                   <div>
@@ -1179,8 +1163,6 @@ function SectionNavigation() {
                     <h1 className="card-jabatan">Legal</h1>
                     <svg
                       className="card-garis"
-                      width="300"
-                      height="6"
                       viewBox="0 0 540 6"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
