@@ -37,9 +37,6 @@ import { Container } from "reactstrap";
 // core components
 
 function SectionNewProject() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <div

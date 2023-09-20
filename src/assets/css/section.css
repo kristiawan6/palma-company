@@ -105,7 +105,7 @@ body {
         z-index: 1;
         /* margin-top: 50px; */
 
-        margin: 308px 0px 0px 50px;
+        margin: 320px 0px 0px 90px !important;
     }
 
     .heroes-img {
@@ -141,8 +141,8 @@ body {
 
     }
     .vector-icon {
-        margin-top: 275px;
-        width: 480px;
+        margin-top: 290px !important;
+        width: 500px !important;
 
     }
 
@@ -212,7 +212,97 @@ body {
     .ceo-sambutan img {
         width: 390px !important;
     }
+    .profile-title h1 {
+        margin-top: auto;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .profile-title span {
+        color: #3A2D80;
+    }
+
+    .profile-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .profile-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
     
+    .bg-sambutan {
+        width: 390px !important;
+        height: 245px !important;
+        position: absolute;
+
+    }
+    .cont-item-sambutan {
+
+        color: #f5f5f5;
+    }
+
+    .item-sambutan-text {
+
+        height: 230px;
+        margin-left: 9px;
+        max-width: 300px;
+        position: relative;
+        align-items: justify;
+    }
+
+    .item-sambutan-text-mar {
+        font-size: 9px;
+        font-weight: bold;
+        margin-left: 25px;
+
+    }
+
+    .item-sambutan-text-jab {
+        margin-top: 4px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-left: 25px;
+
+    }
+
+    .item-sambutan-text-com {
+        margin-top: 4px;
+        margin-bottom: 3px;
+        font-size: 7px;
+        margin-left: 10px;
+
+    }
+
+    .item-sambutan-text p{
+        margin-top: 5px;
+        font-size:6px;
+    }
+
+    .par-satu {
+        font-size: 6.8px;
+        margin-bottom: 3px;
+        text-align: justify;
+        line-height: 1.3;
+
+    }
+
+    .item-sambutan-img {
+        /* padding: 2px; */
+        /* background-color: #E48600; */
+        width: 740px;
+        position: relative;
+    } 
     .youtube-video iframe {
         width: 368px !important;
         height: 340px !important;
@@ -303,20 +393,18 @@ body {
         z-index: 1;
         /* margin-top: 50px; */
 
-        margin: 382px 0px 0px 50px;
+        margin: 378px 0px 0px 10px;
     }
 
     .heroes-img {
         width: 300px !important;
 
     }
-
     .heroes-title {
         font-weight: 600;
         color: #fff;
         line-height: 1.1;
         font-size: 35px;
-
     }
 
     .heroes-text {
@@ -324,7 +412,6 @@ body {
         color: #fff;
         line-height: 0.8;
         font-size: 20px;
-
         align-items: justify !important;
         justify-content: center !important;
     }
@@ -339,8 +426,9 @@ body {
 
     }
     .vector-icon {
-        margin-top: 350px;
-        width: 480px;
+        margin-top: 340px !important;
+        width: 412px !important;
+        height: 77px !important;
 
     }
 
@@ -406,11 +494,101 @@ body {
         margin-bottom: 30px;
         width: 250px;
     }
+    .profile-title h1 {
+        margin-top: auto;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .profile-title span {
+        color: #3A2D80;
+    }
+
+    .profile-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .profile-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    
     
     .ceo-sambutan img {
         width: 412px !important;
     }
     
+    .bg-sambutan {
+        width: 412px !important;
+        position: absolute;
+
+    }
+    .cont-item-sambutan {
+
+        color: #f5f5f5;
+    }
+
+    .item-sambutan-text {
+
+        height: 230px;
+        margin-left: 9px;
+        max-width: 300px;
+        position: relative;
+        align-items: justify;
+    }
+
+    .item-sambutan-text-mar {
+        font-size: 9px;
+        font-weight: bold;
+        margin-left: 25px;
+
+    }
+
+    .item-sambutan-text-jab {
+        margin-top: 4px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-left: 25px;
+
+    }
+
+    .item-sambutan-text-com {
+        margin-top: 4px;
+        margin-bottom: 3px;
+        font-size: 7px;
+        margin-left: 10px;
+
+    }
+
+    .item-sambutan-text p{
+        margin-top: 5px;
+        font-size:6px;
+    }
+
+    .par-satu {
+        font-size: 7px;
+        margin-bottom: 3px;
+        text-align: justify;
+        line-height: 1.3;
+
+    }
+
+    .item-sambutan-img {
+        /* padding: 2px; */
+        /* background-color: #E48600; */
+        width: 740px;
+        position: relative;
+    }   
     .youtube-video iframe {
         width: 386px !important;
         height: 340px !important;
@@ -581,7 +759,7 @@ body {
 
 }
 
-@media (min-width:375px) and (max-width:769px) {
+@media (min-width:375px) and (max-width:411px) {
 
     .container-vector-icon {
         display: flex;
@@ -1331,9 +1509,35 @@ img.service-logo-more {
     .container-ceo {
         line-height: 0.8;
     }
+    .profile-title h1 {
+        margin-top:200px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
 
+    .profile-title span {
+        color: #3A2D80;
+    }
+
+    .profile-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .profile-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     .ceo-title h1 {
-        margin-top: 200px;
+        margin-top:auto;
         font-weight: bold;
         text-align: center;
         line-height: 0.8;
@@ -1431,9 +1635,36 @@ img.service-logo-more {
     .container-ceo {
         line-height: 0.8;
     }
-
-    .ceo-title h1 {
+    .profile-title h1 {
         margin-top: 100px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .profile-title span {
+        color: #3A2D80;
+    }
+
+    .profile-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .profile-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    .ceo-title h1 {
+        margin-top: auto;
         font-weight: bold;
         text-align: center;
         line-height: 0.8;

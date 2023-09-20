@@ -597,7 +597,7 @@ function SectionNavigation() {
         <div className="container py-5">
 
 
-          <div className="ceo-title">
+          <div className="profile-title">
             <h1>
               SUMBER <span>DAYA MANUSIA</span>
             </h1>
