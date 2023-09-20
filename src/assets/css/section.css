@@ -91,8 +91,406 @@ body {
     }
 
 }
+@media (min-width:390px) and (max-width: 411px)  {
+    .container-vector-icon {
+        display: flex;
+        justify-content: center;
 
-@media (min-width:360px) and (max-width:374px) {
+        /* Center its children horizontally */
+        align-items: center;
+        /* Center its children vertically (optional) */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        /* margin-top: 50px; */
+
+        margin: 308px 0px 0px 50px;
+    }
+
+    .heroes-img {
+        width: 300px !important;
+
+    }
+
+    .heroes-title {
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 35px;
+
+    }
+
+    .heroes-text {
+        font-weight: 600;
+        color: #fff;
+        line-height: 0.8;
+        font-size: 20px;
+
+        align-items: justify !important;
+        justify-content: center !important;
+    }
+
+    .heroes-text-p {
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 15px;
+        align-items: justify !important;
+        justify-content: center !important;
+
+    }
+    .vector-icon {
+        margin-top: 275px;
+        width: 480px;
+
+    }
+
+    .vector-icon-pertanian {
+
+        width: 23px;
+        margin-left: 70px;
+    }
+
+    .vector-icon-perkebunan {
+
+        width: 28px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-industri {
+
+        width: 23px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-perdagangan {
+        /* margin-top: 300px !important; */
+        width: 30px;
+        margin-left: 30px;
+    }
+
+
+    .vector-icon-energi {
+        /* margin-top: 300px !important; */
+        width: 23px;
+        margin-left: 30px;
+    }
+    .container-ceo {
+        line-height: 0.8;
+    }
+
+    .ceo-title h1 {
+        margin-top: auto;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .ceo-title span {
+        color: #3A2D80;
+    }
+
+    .ceo-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .ceo-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    
+    .ceo-sambutan img {
+        width: 390px !important;
+    }
+    
+    .youtube-video iframe {
+        width: 368px !important;
+        height: 340px !important;
+        border-radius: 20px;
+    }
+    .riau img {
+        /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
+        width: 6px;
+        position: absolute;
+        margin-top: 148px;
+        margin-left: 60px;
+    }
+
+    .lampung img {
+        /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
+        width: 6px;
+        position: absolute;
+        margin-top: 176px;
+        margin-left: 80px;
+    }
+
+    .jawa-barat img {
+        width: 6px;
+        position: absolute;
+        margin-top: 194px;
+        margin-left: 102px;
+    }
+
+    .jawa-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 197px;
+        margin-left: 120px;
+    }
+
+    .jawa-timur img {
+        width: 6px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 140px;
+    }
+
+    .kalimantan-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 155px;
+        margin-left: 146px;
+    }
+
+    .sulawesi-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 148px;
+        margin-left: 220px;
+    }
+
+    .papua-barat img {
+        width: 6px;
+        position: absolute;
+        margin-top: 146px;
+        margin-left: 316px;
+    }
+    .news {
+        margin-top: auto;
+    }
+
+    .poster-news img {
+        margin-left: 64px;
+        justify-content: center;
+
+        width: 250px;
+        /* margin: 0; */
+    }
+    
+}
+
+@media (min-width:412px) and (max-width: 769px) {
+    .container-vector-icon {
+        display: flex;
+        justify-content: center;
+
+        /* Center its children horizontally */
+        align-items: center;
+        /* Center its children vertically (optional) */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        /* margin-top: 50px; */
+
+        margin: 382px 0px 0px 50px;
+    }
+
+    .heroes-img {
+        width: 300px !important;
+
+    }
+
+    .heroes-title {
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 35px;
+
+    }
+
+    .heroes-text {
+        font-weight: 600;
+        color: #fff;
+        line-height: 0.8;
+        font-size: 20px;
+
+        align-items: justify !important;
+        justify-content: center !important;
+    }
+
+    .heroes-text-p {
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.1;
+        font-size: 15px;
+        align-items: justify !important;
+        justify-content: center !important;
+
+    }
+    .vector-icon {
+        margin-top: 350px;
+        width: 480px;
+
+    }
+
+    .vector-icon-pertanian {
+
+        width: 23px;
+        margin-left: 70px;
+    }
+
+    .vector-icon-perkebunan {
+
+        width: 28px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-industri {
+
+        width: 23px;
+        margin-left: 30px;
+    }
+
+    .vector-icon-perdagangan {
+        /* margin-top: 300px !important; */
+        width: 30px;
+        margin-left: 30px;
+    }
+
+
+    .vector-icon-energi {
+        /* margin-top: 300px !important; */
+        width: 23px;
+        margin-left: 30px;
+    }
+    .container-ceo {
+        line-height: 0.8;
+    }
+
+    .ceo-title h1 {
+        margin-top: auto;
+        font-weight: bold;
+        text-align: center;
+        line-height: 0.8;
+        color: #000;
+    }
+
+    .ceo-title span {
+        color: #3A2D80;
+    }
+
+    .ceo-title h4 {
+        font-weight: 600;
+        text-align: center;
+        color: #757575 !important;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .ceo-title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    
+    .ceo-sambutan img {
+        width: 412px !important;
+    }
+    
+    .youtube-video iframe {
+        width: 386px !important;
+        height: 340px !important;
+        border-radius: 20px;
+    }
+    .riau img {
+        /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
+        width: 6px;
+        position: absolute;
+        margin-top: 148px;
+        margin-left: 60px;
+    }
+
+    .lampung img {
+        /* style={{ width: 18, position: "absolute", marginTop: 358, marginLeft: 232 }} */
+        width: 6px;
+        position: absolute;
+        margin-top: 176px;
+        margin-left: 80px;
+    }
+
+    .jawa-barat img {
+        width: 6px;
+        position: absolute;
+        margin-top: 194px;
+        margin-left: 102px;
+    }
+
+    .jawa-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 197px;
+        margin-left: 120px;
+    }
+
+    .jawa-timur img {
+        width: 6px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 140px;
+    }
+
+    .kalimantan-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 155px;
+        margin-left: 146px;
+    }
+
+    .sulawesi-tengah img {
+        width: 6px;
+        position: absolute;
+        margin-top: 148px;
+        margin-left: 220px;
+    }
+
+    .papua-barat img {
+        width: 6px;
+        position: absolute;
+        margin-top: 146px;
+        margin-left: 316px;
+    }
+    .news {
+        margin-top: auto;
+    }
+
+    .poster-news img {
+        margin-left: 64px;
+        justify-content: center;
+
+        width: 250px;
+        /* margin: 0; */
+    }
+    
+}
+
+@media (min-width:360px) and (max-width:389px) {
+    /* .heroes {
+        background-color: #fff;
+    } */
 
     .container-vector-icon {
         display: flex;
@@ -710,7 +1108,7 @@ img.service-logo-more {
     }
 }
 
-@media (min-width: 360px) and (max-width:769px) {
+@media (min-width: 360px) and (max-width:389px) {
     .riau img {
         /* style={{ width: 18, position: "absolute", marginTop: 278, marginLeft: 180 }} */
         width: 8px;
@@ -1029,7 +1427,7 @@ img.service-logo-more {
     }
 }
 
-@media (min-width: 360px) and (max-width:768px) {
+@media (min-width: 360px) and (max-width:389px) {
     .container-ceo {
         line-height: 0.8;
     }
@@ -1384,7 +1782,7 @@ img.service-logo-more {
 }
 
 
-@media (min-width: 360px) and (max-width:768px) {
+@media (min-width: 360px) and (max-width:411px) {
     .news {
         margin-top: auto;
     }
@@ -1466,7 +1864,7 @@ img.service-logo-more {
 }
 
 .h-hub {
-    font-weight: bold;
+    font-weight: bold;  
     text-align: center;
     color: white;
 }
@@ -1539,7 +1937,7 @@ img.service-logo-more {
 
 }
 
-@media (min-width:360px) and (max-width:769px) {
+@media (min-width:360px) and (max-width:389px) {
 
     .youtube-video iframe {
         /* margin-left: 10px; */
@@ -1599,3 +1997,4 @@ textarea {
     background-color: #3A2D80;
     /* Warna ungu lebih tua saat hover */
 }
+
