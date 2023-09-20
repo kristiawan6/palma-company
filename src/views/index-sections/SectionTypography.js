@@ -113,7 +113,7 @@ function SectionProject() {
                 src={require("../../assets/img/dot.png")}
               />
             </div>
-            <div className="kalimantan-tengah">
+            <div className="kalimantan-tengah"> 
               <img
                 data-toggle="tooltip"
                 data-placement="top"
