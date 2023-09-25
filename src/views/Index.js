@@ -61,8 +61,8 @@ function Index() {
         <SectionCarousel />
         <SectionNotification />
         <SectionTypography />
-        <SectionExamples />
-        {/* <SectionVisiMisi /> */}
+        {/* <SectionExamples /> */}
+        <SectionVisiMisi />
         {/* <SectionWhyus /> */}
         {/* <SectionJobs /> */}
         <SectionNews/>

@@ -16,57 +16,78 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
-
+import React, { useEffect } from "react";
 import "../../assets/css/section.css";
+// img
+import b2b from "../../assets/img/service/b2b.svg";
+import ar from "../../assets/img/service/ar.svg";
+import chatbot from "../../assets/img/service/chatbot.svg";
+import expedition from "../../assets/img/service/expedition.svg";
+import human from "../../assets/img/service/human.svg";
+import machine from "../../assets/img/service/machine.svg";
+import management from "../../assets/img/service/management.svg";
+import monitoring from "../../assets/img/service/monitoring.svg";
+import voice from "../../assets/img/service/voice.svg";
+
 // reactstrap components
-import { Card, Container, CardBody } from "reactstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Container } from "reactstrap";
 
 // core components
 
-function SectionProgress() {
+function SectionNewProject() {
   return (
-    <div className="bg-vm pt-5">
-      <div id="section-why-us" className="container  pt-3">
-        <div className="row g-4 mt-5 justify-content-around align-items-center">
-          <div className="card vm-border" data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="400" style={{ width: "35rem" }}>
-            <p className="h2 judul d-flex align-items-center justify-content-center">
-              <img
-                className="mr-3"
-                src={require("../../assets/img/dot.png")}
-              ></img>
-              Vision
-            </p>
-            <div className="card-body card-service ">
-              <h5 className="card-text">
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-              </h5>
+    <>
+      <div
+        id="section-pulau"
+        className="container-xxl ">
+        <div className="container">
+        <div className="judul-pulau">
+              <h2 style={{ fontWeight: "bold", color: "black"}}>
+                PROYEK TERBARU KAMI
+              </h2>
             </div>
-          </div>
-          <div className="card vm-border" data-aos="fade-left" data-aos-duration="1000"  data-aos-delay="400" style={{ width: "35rem" }}>
-            <p className="h2 judul d-flex align-items-center justify-content-center">
-              <img
-                className="mr-3"
-                src={require("../../assets/img/dot.png")}
-              ></img>
-              Mission
-            </p>
-            <div className="card-body card-service ">
-              <h5 className="card-text">
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-              </h5>
+          <div className="row mt-2 justify-content-left align-items-center" >
+              <div className="service-item-pulau">
+                <div className="card-body riaumr">
+                  <img className="img-fluid" src={require("../../assets/img/riau.png") } />
+                </div>
+              </div>
+              <div className="service-item-pulau">
+                <div className="card-body lampungml">
+                  <img className="img-fluid" src={require("../../assets/img/lampung.png") } />
+                </div>
+              </div>
+              <div className="service-item-pulau">
+                <div className="card-body jabarml">
+                  <img className="img-fluid" src={require("../../assets/img/jawa-barat.png") } />
+                </div>
+              </div>
+              <div className="service-item-pulau">
+                <div className="card-body jateng">
+                  <img className="img-fluid" src={require("../../assets/img/jawa-tengah.png") } />
+                </div>
+              </div>
+              <div className="service-item-pulau">
+                <div className="card-body jatimml">
+                  <img className="img-fluid" src={require("../../assets/img/jawa-timur.png") } />
+                </div>
+              </div>
+              <div className="service-item-pulau">
+                <div className="card-body kaltengml">
+                  <img className="img-fluid"src={require("../../assets/img/kalimantan-tengah.png") } />
+                </div>
+              </div>
+              <div className="garis-pulau">
+              <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />
+
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
-export default SectionProgress;
+export default SectionNewProject;
