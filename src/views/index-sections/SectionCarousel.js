@@ -48,9 +48,34 @@ const items = [
     caption: "Singkong",
   },
   {
-    src: require("assets/img/caliandraa.jpg"),
-    altText: "Calliandra Powder Flower",
-    caption: "Calliandra Powder Flower",
+    src: require("assets/img/talas.png"),
+    altText: "Talas",
+    caption: "Talas",
+  },
+  {
+    src: require("assets/img/ubi.png"),
+    altText: "Ubi",
+    caption: "Ubi",
+  },
+  {
+    src: require("assets/img/aren.png"),
+    altText: "Aren",
+    caption: "Aren",
+  },
+  {
+    src: require("assets/img/sagu.png"),
+    altText: "Sagu",
+    caption: "Sagu",
+  },
+  {
+    src: require("assets/img/sorgum.png"),
+    altText: "Sorgum",
+    caption: "Sorgum",
+  },
+  {
+    src: require("assets/img/kelapa.png"),
+    altText: "Kelapa",
+    caption: "Kelapa",
   },
 ];
 

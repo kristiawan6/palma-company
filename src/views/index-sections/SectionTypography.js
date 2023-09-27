@@ -144,11 +144,7 @@ function SectionProject() {
             />
             <img
               style={{ marginTop: 20 }}
-              src={require("../../assets/img/flexphoto.png")}
-            />
-            <img
-              style={{ marginTop: 15 }}
-              src={require("../../assets/img/aren.png")}
+              src={require("../../assets/img/flexpalma.png")}
             />
             <div className="garis-proyek">
               <img src={require("../../assets/img/ceo-div.png")} alt="Survey" />

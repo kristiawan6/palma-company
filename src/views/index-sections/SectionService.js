@@ -18,7 +18,7 @@ function SectionNavigation() {
         className=""
       >
 
-        {/* samsul modal start */}
+        {/* budi modal start */}
         <div className="modal fade" id="staticBackdropSamsul" data-backdrop="static" data-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div className="modal-dialog">
             <div className="modal-content">
@@ -26,9 +26,9 @@ function SectionNavigation() {
                 {/* <h5 className="modal-title" id="staticBackdropLabel">
 
                 </h5> */}
-                <img src={require("../../assets/img/mardianto.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/budik.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Samsul Hadi & Team</span>
+                <span className="profile-modal-name">Budi Kasnan Besari Adinagoro</span>
                 <br />
                 <span className="profile-modal-jabatan">Komisaris Utama</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
@@ -134,11 +134,11 @@ function SectionNavigation() {
                 {/* <h5 className="modal-title" id="staticBackdropLabel">
 
                 </h5> */}
-                <img src={require("../../assets/img/bambang.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/circle-photo.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">M. Riza Patria</span>
+                <span className="profile-modal-name">Ruhiyat</span>
                 <br />
-                <span className="profile-modal-jabatan">Komisaris Independen</span>
+                <span className="profile-modal-jabatan">Komisaris</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -185,11 +185,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/carman.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/circle-photo.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Utomo</span>
+                <span className="profile-modal-name">Rudiani Wijaya</span>
                 <br />
-                <span className="profile-modal-jabatan">Supply Chain Director</span>
+                <span className="profile-modal-jabatan">Komisaris</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -231,11 +231,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/siti.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/circle-photo.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">T. Rusli Ahmat</span>
+                <span className="profile-modal-name">Ahmad Reza Patria</span>
                 <br />
-                <span className="profile-modal-jabatan">Komisaris</span>
+                <span className="profile-modal-jabatan">Komisaris Independen</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -277,11 +277,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/tubagus.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/rusli.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Syahrul Aryansyah</span>
+                <span className="profile-modal-name">T. Rusli Ahmad</span>
                 <br />
-                <span className="profile-modal-jabatan">Businnes Dev & Investment Director</span>
+                <span className="profile-modal-jabatan">Komisaris</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -323,11 +323,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/nurseti.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/circle-photo.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Asep Urbana</span>
+                <span className="profile-modal-name">Ir. Bambang Eko Yunardi</span>
                 <br />
-                <span className="profile-modal-jabatan">Audit Committe</span>
+                <span className="profile-modal-jabatan">Direktur Keuangan</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -369,11 +369,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/menik.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/janter.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Arin Nur Diana</span>
+                <span className="profile-modal-name">Janter Kimbal Sinaga</span>
                 <br />
-                <span className="profile-modal-jabatan">Finance Director</span>
+                <span className="profile-modal-jabatan">Direktur Operasional</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -415,11 +415,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/hamka.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/yovi.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Erwin Yudistira</span>
+                <span className="profile-modal-name">Yovi Havianto</span>
                 <br />
-                <span className="profile-modal-jabatan">VP Director</span>
+                <span className="profile-modal-jabatan">Direktur Legal</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -461,11 +461,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/nunung.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/siti.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Suteja Febby D</span>
+                <span className="profile-modal-name">Siti Asnawaty</span>
                 <br />
-                <span className="profile-modal-jabatan">Human Capital Director</span>
+                <span className="profile-modal-jabatan">Direktur SDM</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -507,11 +507,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/nunung.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/adli.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Saharuddin</span>
+                <span className="profile-modal-name">Wan Adli</span>
                 <br />
-                <span className="profile-modal-jabatan">Operation Director</span>
+                <span className="profile-modal-jabatan">Direktur IT</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -553,11 +553,11 @@ function SectionNavigation() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <img src={require("../../assets/img/nunung.png")} style={{ width: "80px" }}></img>
+                <img src={require("../../assets/img/bambang.png")} style={{ width: "80px" }}></img>
                 <br />
-                <span className="profile-modal-name">Ahmad Zaky AB</span>
+                <span className="profile-modal-name">Bambang M. Yasin</span>
                 <br />
-                <span className="profile-modal-jabatan">Comm & Gov Affair Director</span>
+                <span className="profile-modal-jabatan">Direktur Hubungan antar Lembaga</span>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span>
                 </button>
@@ -610,10 +610,10 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/budik.png")}
                   />
                   <div>
-                    <h1 className="card-text">Samsul Hadi & Team</h1>
+                    <h1 className="card-text" style={{"lineHeight" : 1 }}>Budi Kasnan Besari Adinagoro</h1>
                     <h1 className="card-jabatan">Komisaris Utama</h1>
                     <svg
                       className="card-garis"
@@ -696,7 +696,7 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/mardianto.png")}
                   />
                   <div>
                     <h1 className="card-text">Mardianto</h1>
@@ -784,8 +784,8 @@ function SectionNavigation() {
                     src={require("../../assets/img/circle-photo.png")}
                   />
                   <div>
-                    <h1 className="card-text">M. Riza Patria</h1>
-                    <h1 className="card-jabatan">Komisaris Independen</h1>
+                    <h1 className="card-text">Ruhiyat</h1>
+                    <h1 className="card-jabatan">Komisaris</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -870,8 +870,8 @@ function SectionNavigation() {
                     src={require("../../assets/img/circle-photo.png")}
                   />
                   <div>
-                    <h1 className="card-text">Utomo</h1>
-                    <h1 className="card-jabatan">Supply Chain Director</h1>
+                    <h1 className="card-text">Rudiani Wijaya</h1>
+                    <h1 className="card-jabatan">Komisaris</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -956,9 +956,9 @@ function SectionNavigation() {
                     src={require("../../assets/img/circle-photo.png")}
                   />
                   <div>
-                    <h1 className="card-text">T. Rusli Ahmat</h1>
+                    <h1 className="card-text">Ahmad Reza Patria</h1>
                     <h1 className="card-jabatan">
-                      Komisaris
+                      Komisaris Independen
                     </h1>
                     <svg
                       className="card-garis"
@@ -1041,11 +1041,11 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/rusli.png")}
                   />
                   <div>
-                    <h1 className="card-text">Syahrul Aryansyah</h1>
-                    <h1 className="card-jabatan">Businnes Dev & Investment Director</h1>
+                    <h1 className="card-text">T.Rusli Ahmad</h1>
+                    <h1 className="card-jabatan">Komisaris</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1130,8 +1130,8 @@ function SectionNavigation() {
                     src={require("../../assets/img/circle-photo.png")}
                   />
                   <div>
-                    <h1 className="card-text">Asep Urbana</h1>
-                    <h1 className="card-jabatan">Audit Committe</h1>
+                    <h1 className="card-text">Ir. Bambang Eko Yunardi</h1>
+                    <h1 className="card-jabatan">Direktur Keuangan</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1213,11 +1213,11 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/janter.png")}
                   />
                   <div>
-                    <h1 className="card-text">Arin Nur Diana</h1>
-                    <h1 className="card-jabatan">Finance Director</h1>
+                    <h1 className="card-text">Janter Kimbal Sinaga</h1>
+                    <h1 className="card-jabatan">Direktur Operasional</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1300,13 +1300,13 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/yovi.png")}
                   />
                   <div>
                     <h1 className="card-text">
-                      Erwin Yudistira
+                      Yovi Havianto
                     </h1>
-                    <h1 className="card-jabatan">VP Director</h1>
+                    <h1 className="card-jabatan">Direktur Legal</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1390,13 +1390,13 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/siti.png")}
                   />
                   <div>
                     <h1 className="card-text">
-                      Suteja Febby D
+                      Siti Asnawaty
                     </h1>
-                    <h1 className="card-jabatan">Human Capital Director</h1>
+                    <h1 className="card-jabatan">Direktur SDM</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1480,13 +1480,13 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/adli.png")}
                   />
                   <div>
                     <h1 className="card-text">
-                      Saharuddin
+                      Wan Adli
                     </h1>
-                    <h1 className="card-jabatan">Operation Director</h1>
+                    <h1 className="card-jabatan">Direktur IT</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
@@ -1570,13 +1570,13 @@ function SectionNavigation() {
                 <div className="card-body card-service">
                   <img
 
-                    src={require("../../assets/img/circle-photo.png")}
+                    src={require("../../assets/img/bambang.png")}
                   />
                   <div>
                     <h1 className="card-text">
-                      Ahmad Zaky AB
+                      Bambang M. Yasin
                     </h1>
-                    <h1 className="card-jabatan">Comm & Gov Affair Director</h1>
+                    <h1 className="card-jabatan">Direktur Hubungan antar Lembaga</h1>
                     <svg
                       className="card-garis"
                       viewBox="0 0 540 6"
