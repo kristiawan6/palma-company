@@ -48,10 +48,7 @@ function IndexHeader() {
                 Untuk Menuju Lambung Pangan Dunia
               </h3>
               <h3 className="heroes-text-p display-3">
-                PT PALMA PERTIWI MAKMUR adalah sebuah perusahaan yang bergerak
-                di bidang ketahanan pangan yang memiliki visi mejadi lumbung
-                pangan dunia. PT Palma Pertiwi Mandiri memiliki divisi
-                Pertanian, Kehutanan (Perhutanan Sosial) dan Jasa Lingkungan.
+              PT PALMA PERTIWI MAKMUR adalah sebuah perusahaan yang bergerak di bidang ketahahan pangan berbasis agroporestry yang memiliki visi mejadi lumbung pangan dunia. PT Palma Pertiwi Mandiri memiliki divisi Pertanian, Kehutanan Sosial, Industri, Perdagangan dan Energi
               </h3>
             </div>
           </div>
@@ -60,7 +57,7 @@ function IndexHeader() {
           <img className="vector-icon" src={require("../../assets/img/Vector.png")}></img>
           <div className="container-vector-icon">
             <img className="vector-icon-pertanian" src={require("../../assets/img/pertanian.png")}></img>
-            <img className="vector-icon-perkebunan" src={require("../../assets/img/perkebunan.png")}></img>
+            <img className="vector-icon-perkebunan" src={require("../../assets/img/perhutanan.png")}></img>
             <img className="vector-icon-industri" src={require("../../assets/img/industri.png")}></img>
             <img className="vector-icon-perdagangan" src={require("../../assets/img/perdagangan.png")}></img>
             <img className="vector-icon-energi" src={require("../../assets/img/energi.png")}></img>

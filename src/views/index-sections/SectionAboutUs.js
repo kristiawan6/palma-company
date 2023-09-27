@@ -23,11 +23,14 @@ function SectionCeo() {
           <div className="item-sambutan-text-jab">Presiden Direktur</div>
           <h5 className="item-sambutan-text-com">PT Palma Pertiwi Makmur</h5>
           <div className="par-satu">
-            PT Palma Pertiwi Makmur Bekerjasama dengan kementerian dan pemerintah daerah melalui skema kerjasama pemerintah dan badan usaha berupaya mengatasi ketahanan pangan dengan menciptakan lumbung pangan dunia.
+          PT Palma Pertiwi Makmur Bekerjasama dengan kementerian dan pemerintah daerah melalui skema kerjasama pemerintah dan badan usaha berupaya mengatasi ketahahan pangan berbasis agroporestry dengan menciptakan lumbung pangan dunia.
           </div>
           <div className="par-satu">
             Strategi yang dilakukan PT Palma Pertiwi Makmur membentuk unit usaha 1 (satu) anak perusahaan di setiap provinsi yang bergerak di sektor  di sektor pertanian, kehutanan dan jasa lingkungan.
-            Dan menciptakan 7 (tujuh) anak perusahaan penunjang program corporate.
+          </div>
+          <br />
+          <div className="par-satu">
+          Dan menciptakan 7 (tujuh) anak perusahaan penunjang program corporate.
           </div>
           <p className="text-white">
           Program Kerja Tahun 2023

@@ -36,10 +36,7 @@ function DemoFooter() {
             <div>
               <p className="text-light m-0 justify mt-3">PT Palma Pertiwi Makmur</p>
               <div className="text-light m-0" style={{textAlign: 'justify', maxWidth: '600px'}}>
-                adalah sebuah perusahaan yang bergerak di bidang ketahanan 
-                pangan yang memiliki visi menjadi lumbung pangan dunia. 
-              
-                PT Palma Pertiwi Makmur memiliki divisi Pertanian, Kehutanan (Perhutanan Sosial) dan Jasa Lingkungan.
+              sebuah perusahaan yang bergerak di bidang Ketahahan pangan berbasis agroporestry yang memiliki visi menjadi lumbung pangan dunia. PT Palma Pertiwi Makmur memiliki divisi Pertanian, Kehutanan Sosial, Industri, Perdagangan dan Energi.
               </div>
             </div>
             <div className="d-flex align-items-center mt-1">
